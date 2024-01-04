@@ -1,10 +1,12 @@
 div#runtime {
     width: fit-content;
     color: #fff;
-    padding: 0 10px;
+	margin: auto;
+    padding: 0 15px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 
 [data-theme="dark"] div#runtime {
     color: #28b4c8;
