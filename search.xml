@@ -1,751 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>markdown技巧</title>
-    <url>/2023/12/07/%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%B7%A5%E5%85%B7/markdown%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h2 id="标题层级"><a href="#标题层级" class="headerlink" title="标题层级"></a><font class="text-color-6" color="#2196f3">标题层级</font></h2><p>用#号来组织，和jupter插件用法相同<br>尽量只用这一种方法</p>
-<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a><font class="text-color-6" color="#2196f3">段落</font></h2><p>要创建段落，请使用空白行分隔一行或多行文本，您不应缩进带有空格或制表符的段落</p>
-<h2 id="换行"><a href="#换行" class="headerlink" title="换行"></a><font class="text-color-6" color="#2196f3">换行</font></h2><p>换行符，以两个或多个空格结束一行，然后键入return</p>
-<h2 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a><font class="text-color-6" color="#2196f3">块引用</font></h2><blockquote>
-<p> 块引用的效果</p>
-</blockquote>
-<blockquote>
-<p> 块引用的效果</p>
-<p> 块引用的效果</p>
-</blockquote>
-<blockquote>
-<p> 块引用的效果</p>
-<blockquote>
-<p>块引用的效果</p>
-</blockquote>
-</blockquote>
-<h2 id="有序换行"><a href="#有序换行" class="headerlink" title="有序换行"></a><font class="text-color-6" color="#2196f3">有序换行</font></h2><ol>
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-</ol>
-<h2 id="无序换行"><a href="#无序换行" class="headerlink" title="无序换行"></a><font class="text-color-6" color="#2196f3">无序换行</font></h2><ul>
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">迅捷markdown快速生成</span><br></pre></td></tr></table></figure>
-
-<h2 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a><font class="text-color-6" color="#2196f3">链接语法</font></h2><p>这是一个链接 <a href="https://markdown.com.cn/">Markdown语法</a><br>——————————————<br>这是一个链接 <a href="https://markdown.com.cn/" title="最好的markdown教程">Markdown语法</a>。加上注释的写法<br>——————————————<br><a href="https://markdown.com.cn/">https://markdown.com.cn</a><br><a href="mailto:&#x66;&#97;&#x6b;&#101;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#109;">&#x66;&#97;&#x6b;&#101;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#109;</a><br>网址和Email地址的写法<br>——————————————<br>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org/">Markdown Guide</a></em>.<br>‘See the section on <a href="#code"><code>code</code></a>.</p>
-]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>Color Themes</title>
+      <link href="/hexo-theme-freemind-blog/2016/01/30/color-themes/"/>
+      <url>/hexo-theme-freemind-blog/2016/01/30/color-themes/</url>
+      <content type="html"><![CDATA[<p>Freemind contains luxuriant color themes for your choice. To use one of them, simply modify the <code>theme</code> and <code>inverse</code> settings from your theme <code>_config.yml</code> file <em>e.g.</em></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">theme: bootstrap</div><div class="line">inverse: true</div></pre></td></tr></table></figure><p>, where <code>theme</code> here indicates which theme you are going to use, and <code>inverse</code> here says you want inverse color scheme on some important components such as navigation bar and header title.</p><p>User contributions are welcome! If you want to contribute a color theme, you can <a href="https://github.com/wzpan/hexo-theme-freemind-blog/tree/dev" target="_blank" rel="external">fork the dev branch</a> . Write a new theme in LESS and send me a pull request.</p><a id="more"></a><h2 id="bootstrap"><a href="#bootstrap" class="headerlink" title="bootstrap"></a>bootstrap</h2><h3 id="default"><a href="#default" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/bootstrap.png" alt="bootstrap"></p><h3 id="inverse"><a href="#inverse" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/bootstrap-inverse.png" alt="bootstrap-inverse"></p><h2 id="cerulean"><a href="#cerulean" class="headerlink" title="cerulean"></a>cerulean</h2><h3 id="default-1"><a href="#default-1" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cerulean.png" alt="cerulean"></p><h3 id="inverse-1"><a href="#inverse-1" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cerulean-inverse.png" alt="cerulean-inverse"></p><h2 id="cosmo"><a href="#cosmo" class="headerlink" title="cosmo"></a>cosmo</h2><h3 id="default-2"><a href="#default-2" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cosmo.png" alt="cosmo"></p><h3 id="inverse-2"><a href="#inverse-2" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cosmo-inverse.png" alt="cosmo-inverse"></p><h2 id="cyborg"><a href="#cyborg" class="headerlink" title="cyborg"></a>cyborg</h2><h3 id="default-3"><a href="#default-3" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cyborg.png" alt="cyborg"></p><h3 id="inverse-3"><a href="#inverse-3" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/cyborg-inverse.png" alt="cyborg-inverse"></p><h2 id="darkly"><a href="#darkly" class="headerlink" title="darkly"></a>darkly</h2><h3 id="default-4"><a href="#default-4" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/darkly.png" alt="darkly"></p><h3 id="inverse-4"><a href="#inverse-4" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/darkly-inverse.png" alt="darkly-inverse"></p><h2 id="flatly"><a href="#flatly" class="headerlink" title="flatly"></a>flatly</h2><h3 id="default-5"><a href="#default-5" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/flatly.png" alt="flatly"></p><h3 id="inverse-5"><a href="#inverse-5" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/flatly-inverse.png" alt="flatly"></p><h2 id="journal"><a href="#journal" class="headerlink" title="journal"></a>journal</h2><h3 id="default-6"><a href="#default-6" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/journal.png" alt="journal"></p><h3 id="inverse-6"><a href="#inverse-6" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/journal-inverse.png" alt="journal-inverse"></p><h2 id="lumen"><a href="#lumen" class="headerlink" title="lumen"></a>lumen</h2><h3 id="default-7"><a href="#default-7" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/lumen.png" alt="lumen"></p><h3 id="inverse-7"><a href="#inverse-7" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/lumen-inverse.png" alt="lumen-inverse"></p><h2 id="paper"><a href="#paper" class="headerlink" title="paper"></a>paper</h2><h3 id="default-8"><a href="#default-8" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/paper.png" alt="paper"></p><h3 id="inverse-8"><a href="#inverse-8" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/paper-inverse.png" alt="paper-inverse"></p><h2 id="readable"><a href="#readable" class="headerlink" title="readable"></a>readable</h2><h3 id="default-9"><a href="#default-9" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/readable.png" alt="readable"></p><h3 id="inverse-9"><a href="#inverse-9" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/readable-inverse.png" alt="readable-inverse"></p><h2 id="sandstone"><a href="#sandstone" class="headerlink" title="sandstone"></a>sandstone</h2><h3 id="default-10"><a href="#default-10" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/sandstone.png" alt="sandstone"></p><h3 id="inverse-10"><a href="#inverse-10" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/sandstone-inverse.png" alt="sandstone-inverse"></p><h2 id="simplex"><a href="#simplex" class="headerlink" title="simplex"></a>simplex</h2><h3 id="default-11"><a href="#default-11" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/simplex.png" alt="simplex"></p><h3 id="inverse-11"><a href="#inverse-11" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/simplex-inverse.png" alt="simplex-inverse"></p><h2 id="slate"><a href="#slate" class="headerlink" title="slate"></a>slate</h2><h3 id="default-12"><a href="#default-12" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/slate.png" alt="slate"></p><h3 id="inverse-12"><a href="#inverse-12" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/slate-inverse.png" alt="slate-inverse"></p><h2 id="spacelab"><a href="#spacelab" class="headerlink" title="spacelab"></a>spacelab</h2><h3 id="default-13"><a href="#default-13" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/spacelab.png" alt="spacelab"></p><h3 id="inverse-13"><a href="#inverse-13" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/spacelab-inverse.png" alt="spacelab-inverse"></p><h2 id="superhero"><a href="#superhero" class="headerlink" title="superhero"></a>superhero</h2><h3 id="default-14"><a href="#default-14" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/superhero.png" alt="superhero"></p><h3 id="inverse-14"><a href="#inverse-14" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/superhero-inverse.png" alt="superhero-inverse"></p><h2 id="united"><a href="#united" class="headerlink" title="united"></a>united</h2><h3 id="default-15"><a href="#default-15" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/united.png" alt="united"></p><h3 id="inverse-15"><a href="#inverse-15" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/united-inverse.png" alt="united-inverse"></p><h2 id="yeti"><a href="#yeti" class="headerlink" title="yeti"></a>yeti</h2><h3 id="default-16"><a href="#default-16" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/yeti.png" alt="yeti"></p><h3 id="inverse-16"><a href="#inverse-16" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind-blog/images/color-themes/yeti-inverse.png" alt="yeti-inverse"></p>]]></content>
+      
       <categories>
-        <category>技巧与工具</category>
+          
+          <category> Docs </category>
+          
       </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常用网址</title>
-    <url>/2023/12/07/%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%B7%A5%E5%85%B7/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="21a984f3fb125ecce4c08e3060c2613f4670ca2f9c2592b63806f5304786586d">b926c11326fbb5e8a48955f4928387b1790a8b5215763c67a52cef439a825b92a8f009f489a307fb677f17699d2307eed8f54eb35df74653fce1b97d530e175424eefa24e1fd6b3c22255f2a4cf1587b6fcd6dc9d7a8f562c5632a65962b06576dfdd7a85cca6473268130463fff643f794d05887091723fee1a88b0772534c2d1ac54e79d158b6390066ef8a41df355960768d25a99f2d4fdcaef3dd58fee7061e8282db073f728435cd5cd128b4fb8d9166844fa33f8cfc4468663dfa316093347155b0a2e3a56dd09ae63544a69b41c71a3aacdb395b9bdf5088dd9c93b0ee59c0c94dc24992b1125ccd1ba98779b398f5dbfe5312f221f11893df3c0753de82cf4e130a7f524ae921447273034fbef63a17b0dd2948f774ef9f0263994faba0547e0709d6873b54df36b9a96e9d4293e83d6dfe774706e35d3a7d2002fba0fea99910052b417c9a98d749c4015be6d2042b21a6ee6fe546ea40e0d6fb6ae4de762e53e0dea49a53c7947e61a20c7956a315818160f387d50f71d1acd1fc7079d6faf238ad0a15898a8834db37e64be668213a73a0b91064d3770f885793529cf4cfcce759e944b882e02caeb6e8122869829f9485fa67ada8dba6c943259105d4564dd1d6686b63fb1649639e44c863396f541ae60b2372517b1be913e878f43f1b398a5b5cae58ad2650526fc3b67fe52d61f9bcad3ccc1440bec52d325f3ccb8f137b2f49d66467fda549390267d3fa8819bbd1a957f0476cd86c20d0c9f170ad4bbc061adb58d4916c2bcf90ddf5057dc88bf33bd4039fbdb2c0f68cbf2dc2edc3e3aedad9b250c13cb342c1d399cff680a45bd2c2863b5eeda9f00e9a4b773886ae8f8460928b40cc7545269cc7c60712fe02ae1659fde129e1ead5769c7f1fbf405027776268f37bea14b39a20a951d6540dd866e1dfe863e706d0afcfe7b312dd2db6debcfa7403493890a61d865aabd9f686c286a37b0c595f62f432c61600db4246a3fe3286d2c832b5d3594c702f909a6f7ab40f0fb6e1df94df079045cf69eafaa3cabbc392a8fecbf085ef4c6d2569663a7a6124ba51ed7560b841c39ac2e8e3e83b4df459dba69250fbc88e5022686c7e78e9c611445de5abca5cb4def635dcd2d54d1c1a628e9257aa8a3235211ec529021ff2edd23c73eeab0e45eb4be9a1a5dcfd6f5122efcfcd2f2aea4e1dba06e27f6640b58454739a478dfa7b358a15946ed08eed44f9349195f8e74e0a9578ab46168e2b043e7c8c7df8b35ae169220b62d63fd56844a9da276b0e2fb63dc8b68e392dcb48c786b4e7c0c722fd3a9120337436f6621cd33edc20a71df59c76185a9c82a79fac07623f186015027c4c3c9e5c86ef04fefb7a284dd2c2d4eeb11d47f1bf0a74e58a75414dbba9473c00b353e554f59b9df199f8325e7cb85eb1561022d61a32ea4cf7fdeff666d6c04064b1369173ecb43f7f23d2efa6eb0ac44d20d098f86ad7682ff9ff6b66c8e2ddc85c4aadaf201f983532f310ab412a3b36a3b2c919ee6d13a568e8cda01dd6ec3b774d64d0abbc8f3ac6627f8d5eaff3c6c365062a5a284eb82135a0c01d72ad630b026e546c91c7df0f567c4263a3e4d29bee32d1d8b1c0c8e4773cdcdaa24acbe8a3de2269275564cc17df50af046c13e73f0ec1ea024213a04572904acc6d3b3e37b8cf178f61f58756d2fa48b6840a86a9fd2d19773e818c543137fa2f915e5f3c49be346eb4d6f954220057a9276a206349ff539c88af934ab07f739b3037544097a2e0d2e5d41d07121e29d010415fc34f2a479d74b995921742eec9bde60d94d1ad7f1e576c6d2ed181cd1854eb8b52f4d34b7de0b5ca7509e1acca48b2c5e04d9990ceab324cd3e7d422abd38e95831a591677f8750f9a8d5a150dac51906f40a37abae4b86e15af0be5324538981c4f669689eb4fdecddba824c6cca6e95cd3b00aeeb6cea401ddae451cbb8c53054ec47e9beae6789b23b641d5f577a0d1f8a4ee1536d64126b0f1fca35198ddcef4fb78c53f7c989979078e67494019b2bcc5efbc4985940e7322afc947060fd81cfe17c303d9589be0783feb0e48be6ae9ed8d6764fe93d601b376acd66d523b3ac4f01bcac093b1fbc754f4cb81be3a7d894c7e85322baf0d6e0d22d2031f9f994bf0682983dc0d9b36c00b52f55990b7cde7a2568e0a8d9375fbab4102b6c777e9d4bc3a78b96dc347be054704face5799fe90d41c6f36eb16d2d3692f9b01e1f6cb1d0bc93d2d12407b28dbd60c1bd7e7c2874566a47d30e65ce4b0f3fe7a23cc52fd6aa12ff6b1179422b6de1ba4a58d750f3beccf9b45abee1c2502eb545783137405cc97737b0a43efb12935fcc6e0eb02918f418508b65aedaf51530ba0ffb7c60e36e4ce24206b4cc161bb28130e6df58150a09f7c547de2c6a7b70176ec6900d35c37b799d4a1933723eb44542bd1d3c044695d3533ce5305443eda502d6924859d2c0f4302e3a513ee1a28e2df3d42151b6b89581234593be4b12ae1818831a803adf038a5299c69bc036fb80296f010b2dacdfadf02175a55cce0d801626559f74d3856cc3c98a304502d890d1ca747097d2377c2004f8b3d2a76a0b81446ec96eac1c878ab04e7f274d9f517514be42cd5c0f9d94f91f597d703e32d80340f697f36017410824e104cb59096febfbb744f2d355b8c0edfddc5bb272afb932b2ec71ae420a3844cf2436d40c8174de31b97b0233a86a41ca71b3d0f0aff2faf0ed016a3d7669ec486397d023ed2ade79f5ef171c9f3561a9a006ceba96773b5d4374cfbaef7e430ea4613ff1d944e43ea4b1d992a16a4de189229f3a7e63528e203eeaa824753e83172ce52092c7ad5f4e3a7554d574a38f31870c32cc46f18ea75c96035248856a01475be39426877e59d235ef3a4b290d791c8893ca8a282bbe6a04ff69997d3e403482dc2baa4a3a4f7ef2379ac3b63a18b0fac3f99fc46cd50f27c5de0dc1860283918bed206a7f98d19dc94fd827dd120e6d1474e8d329968b87968e41d58953393f792ecf91dec7cfb3778dbba4ed891e1fd42494c60e81262a20633c4532ffa01da833b270fc389ef59d700f5205c88eeb553ec10b68cf0f439805877bd15e169d9dcec34af9bb9b53a47ff1381b09057e289e1e01643773877fb285dc3a8f745221b9e31403502adfa837a5850f3141efc5a116f0aaacd1f30d129f2c7b561490dee0f74c9255e6012d8a15518f321e9da09fa0388b78247b80dca7c7a015a52e1aa8122f03214936845922dd48e33fd41f17b1eec1ef4a7ac35433a5b1bbe738c32aa666c90dbceb66227259cbad7d3f1ff6a32f618763dd580cc2892fda56c7e00bdea65f7df3b294d26bade5252bc7fe33f615fc22f4cda316dc2c5e8b437fe426e572c6835bc6072c9e6b8cdae6a1c9c81bc2d723456e31c1a939a12cf3f7c9407e6e4a998b016cf43793d737060ea23e6d13e1ddcde8d29a726cca2ccfe32d0f526a732ea916580eab2ac386830eaf862a924dde28091e765ed9a7b1eaa0021aefb8de064430749f060ee049a596334c066fc27bac7839d7435bfa998c011c8193581a95eed320545e270acf5cd208ef454ce33f1fb23cc9ff4f762cde3df48036c75e24ae88d13453e75fb1e899c197ea93249ece57437461e187c0bf2b24b3595801d3d187594783fcbf86af1774ed42e2e3500eb78868846ef4b78e6b64a1d20cb0009d202acdba8fb9c99504fbf7b2482a0d969a792cae9a10d612eeb38da2aeaa5e59ced7198dda3a3254dfd739e57e94</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里输入密码捏.</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+        <tags>
+            
+            <tag> themes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Questions and Answers</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/16/qna/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/16/qna/</url>
+      <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does <code>Freemind</code> stands for?<br><br><span class="label label-success">A</span> <code>Freemind</code> is named after <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid’s blog</a>. This theme is greatly inspired by his blog layouts and stylesheets.<br><br><span class="label label-danger">Q</span> There’re already so many themes for Hexo. Why create this one?<br><br><span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don’t wanna change it for now.<br><br><a id="more"></a><p><span class="label label-danger">Q</span> Why use raw CSS stylesheets instead of more fashionable stylus?</p><p><span class="label label-success">A</span> Yes, stylus is cool. But I don’t want to wrote my stylesheets again in stylus. So let’s just keep them.</p><p><span class="label label-danger">Q</span> I love your theme. How to contribute?</p><p><span class="label label-success">A</span> Great that you love it. To devote your contribution, you can:</p><ul><li>Star its <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github project</a>;</li><li>Fork this project, make your change, and then send me your pull request;</li><li>Since it is public under MIT license, you can make your own theme based on mine. But it will be nicer if you claimed that your work is based on mine in your theme project page.</li></ul><p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">Your blog</a> looks a little different to this theme. Why such difference?</p><p><span class="label label-success">A</span> Yes. I modified the theme a little bit as I open sourced this theme. I actually did some simplification <em>e.g.</em> I removed the whole <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> page because I don’t think that everybody need this.</p><p><span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?</p><p><span class="label label-success">A</span> Add <code>toc: true</code> in the <a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">front-matter</a>.</p><p><span class="label label-danger">Q</span> Where can I find your markdown source files of these docs?</p><p><span class="label label-success">A</span> From the <a href="https://github.com/wzpan/hexo-theme-freemind-blog" target="_blank" rel="external">source repo</a> of this site.</p>]]></content>
+      
       <categories>
-        <category>技巧与工具</category>
+          
+          <category> Docs </category>
+          
       </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Life</title>
-    <url>/2023/01/03/%E8%AE%B0%E5%BD%95%E4%B8%8E%E7%94%9F%E6%B4%BB/Life/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7b282f411cd88d31f1988f292d1e7e809a0687899e6e7c7fc0316fe0d15f3a5d">b926c11326fbb5e8a48955f4928387b1790a8b5215763c67a52cef439a825b921b482065febd6d24765f529dd79e0fb8ad63be31de35a7ded54837e974016bebc2806dd0668fd4531a48658325bd27f56f1a6d714596caf318c4c9b745ac53bcb8a3dd45146f2541c64f68da8bb15ed62363d0c0e33d5f6193e298b1f522f5a15dfc7d936f908238b5ca29f65dabb3f80d6c981359e97a8e7d75aca5b261020b0c3deffb4f848193bb1d36bdb5ea2f9eb957f43459bd62f5c78ea85678d2f0ced7e7695161d4a5c09028f1f6edd7b7b87015298bcbab21af694d80c5a662d1098b93ff59475b7f7cd95361b72a966885383c5b6d6fc28edaf6559915f92413e8cd8a047527e27145cbb5387fe8ecd3e32f918e6b9f74c7a908474d0d975b9efa78326f88859e0d157a47f29e84d42ec996dc20e7822dbd2c69c6f3c55c2d4db19286f8b4e22336472f7e9bfe024e96879b1492207c3556111487586dc2bd620d5315d7edf2d57a53bc9efb2ec715c92bece41f5c8cf6ab516a9e8cbbc465ae839ec0fcb9b2ccf714f99d846c8069087a68ee5bc90f93cd49811cc7c4bec6ff5035b6ee6bb04d5320b4c99a408f1939c1790c08000e291ae1fe9731bcaae4aa9e1d920eb8bacb7d6c1aa38bad4faf5c80afc1ecea3cff6fac18337717c6d1bf35756fdd4f6204aa1e38cfd9e2329b3c9f0b7e172be6579490b8bc20007b94ec6a2b1937bb5df287e5cd199f6fd0f34c85a55dfc46684ca2ab360109c89f31e0fc0d0a98307630e5294cda0ad54601a9ee6fe02321395c9a4c275a781e4235a738a4e51460c6483b8b03981603e195b0c7349cf1066b62e546450d9a903aab078a84cc3d27bf4f7f1464c9ae211ebc5878037d0f5de5e3c1a040c8e4a5d9eefbddfa6e2f58eef2ccfb7b82af45cc71dd1d88e4fa6d5c90d25305fbeff4d883611933136201c88cc1df2e491ac9598dd797074fbc75e169c1346b320a55a05745271335242ac8f2468018e3d85aa63542009f1ab9f7d60fa9a1693e9b6a9be16737bb05763650f4c95959cacd995df54e3f69215850e40dc645e058d0b22e8004a8833c68bafe30ba58f44ea199b6d4b4de7520af2db05614882ceaca35795c0ac41683315806ec3cd458386dcf58441ddf30071b7cb7fcc7bb1d2db989931b3e11b01ca1ba24c37006a4979ac489a6e2a60dc436ae88f619783db32e036229797a168e17d246ccaa90e4a60e0c98b6246a97dbeb66acfbb7f4ab14a48d52d9d543c9af1f0b6fd81ab325d54c03dcc119ba82dfb156a14dca5032b59221640acf04990485a09891cbe47f524946073c59a6306c0bd6bbe1127275378078fbcf591f73fae42e08f41332a0f5dfbe4fb71e27b23683b0b229accefe95e2fd375bc8c332530a191cd627addbe26f4ed59299af79b2eb6beb091da963f81bb47bdc6bd64fc67125c6ac3f929aa18e352d2df983581c1167e489f5fa42439d6972a10875e9b29ce323a05aa1d48bb37884bcdbfd92c062c1dd4df88bc06a059059d2ccad867a89660762a30b3be5227f10ae8d69f02fbd042bbad99da679ad60c347b67a62dd87dd1c7e2761edbde4194de10463c704992fee260691e124bb93ec68b0359641545a6ee91df1e05aca820f00a23c760a8043c47c065fe654eb09bb182235f9b8c6e00f6ac828919bf06e71ce076dce47e40c4722604ba3cdb2532f015ee00956da848ad8f522330668da90caa9de9f0f72d7c823fc2d3201435d44398a3ea55766070e8bc1629c0d5fa8d5478004ebf549237468f269ea0336d6d709b9fb751de91132b60fff7ad255338633642ebfeacab265fc823c55af7212efc8ea7b5ad3e15944fee6e2c995eb8c9d1b285267c3835a0112b6e775181ab89cf2cea3c4e50459590c8485ee56968a19095994ab61e2c600a40e5bbf5888246017ca2504594034a477a9c16b15b2c6f58bb56d0329c2edf956b3bd0ad2d518f1c08ae42b16b2bc8bf33093cb378b63001d6df671c4b25f3609ad3c2f5717a9d7f2b3082bf394936850dac9af0356cd1e67aad1187755bc43bf160a95d9adb93f146b0f8b678b1b480d8f1e54a503b5ba02c147ebd41870b2904b108e0e5f842494910e461cd2050ae5fc5712b2f38ee09ef260cbe6ceb2c63d63a93c9250c7f6391fd03d6d8557815ebff863e1ef39582a3f2327662020c6b71a837fcfd555736a73525e971bdfdcda40afe436c6809a7f2aef589ae0ccf97c629ce485c6a4f0fc391043317588eb55e957287f67d4acd1a59c741a2cb3351185a68f29e5396be70aa1df385c385e1867e773f6cb922f76ff7d080acaf9396cbf877104df7ab7df1e5b3fb1481e26cbafa9a41fcc0d8055406bec531b006c4a2435e707efeafb29c035e4d9ece0fb38fedba10501d92bcb444d759a3e39232877a56922fbb7f172691caa15ab558b394fd6435bf2cdc61b0759776bb117cb6dad0c9f4aec85df9c9bca41e3b0c7e4014274c15fab86b273a670ae7b545a629f1f510d6316f0fad8c6039c8b8982f47190fbdab77f894de3f128</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里输入密码捏.</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+        <tags>
+            
+            <tag> Q&amp;A </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Questions and Answers（中文）</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/16/qna-cn/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/16/qna-cn/</url>
+      <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a><p><span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？</p><p><span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。</p><p><span class="label label-danger">Q</span> 你的博客不错用，如何贡献？</p><p><span class="label label-success">A</span> 有人喜欢我的东西我就很高兴咯。如果想做出贡献，你可以：</p><ul><li>为本主题的 <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github 项目</a> 加颗星；</li><li>Fork 这个项目，尽情DIY，然后给我发 pull request;</li><li>这个项目遵循 MIT 开源协议，你可以在本主题基础上创建你的主题。不过如果你能在你的主题页面中声明主题基于 Freemind 就再好不过了。</li></ul><p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">你自己的博客</a> 看起来跟这个主题有点不一样呀，为什么？</p><p><span class="label label-success">A</span> 是的。我在开源这个主题前做了些简化。不是所有人都需要我的博客里的一些特性，比如 <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> 页面。</p><p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p><p><span class="label label-success">A</span> 在<a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">文章头部</a>添加 <code>toc: true</code> 。</p><p><span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？</p><p><span class="label label-success">A</span> 在本站点的 <a href="https://github.com/wzpan/hexo-theme-freemind-blog" target="_blank" rel="external">源码仓库</a> 。</p>]]></content>
+      
       <categories>
-        <category>记录与生活</category>
+          
+          <category> Docs </category>
+          
       </categories>
-      <tags>
-        <tag>life</tag>
-        <tag>record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-1.1深度学习的引出</title>
-    <url>/2023/12/10/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%80%E8%AE%B2_1.1%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%BC%95%E5%87%BA/</url>
-    <content><![CDATA[<h3 id="一、什么是机器学习"><a href="#一、什么是机器学习" class="headerlink" title="一、什么是机器学习"></a>一、什么是机器学习</h3><p><strong>机器学习的定义</strong>：√机器学(Machine Learning）是对研究问题进行模型假设，利用计算机从训练数据中学习得到模型参数。并最终对数据进行预测和分析的一门学科。</p>
-<ol>
-<li><strong>两类数据点</strong>：如何进行分类，模型的参数如何取值<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_426923bf10191c818d3b481a55bb7f26.png" alt="机器学习的定义"></li>
-<li>简单线性分类器到深度学习分类器：<blockquote>
-<p>问题:根据繁华程度(x1)、交通便利度(x2)、与市中心距离(x3)、楼层(xn )预测房价的高低:<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_944ae8ff5567162512e5126c2824fb75.png"></p>
-</blockquote>
-</li>
-</ol>
-<p>如果是深度学习，怎么解决<br><strong>典型的就是加入中间层</strong>,U是个参数矩阵，表示权重</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_beb8fcb39a9cc5900c468c6afdac6bda.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_3102d110b4b2232eb25194364378a410.png"></p>
-</blockquote>
-<ol start="3">
-<li>什么是深度学习<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_2116df92e28769a02e85bdc6973089b7.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_eca5aa1fe5b0d20fbbbb79ae803abb01.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_9415ffb5a2cd972824aec8da8f11806a.png"><br><img src="https://markdown.liuchengtu.com/work/uploads/upload_3ecd9a11f709518468612edf7f35b5d2.png"></p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Q&amp;A </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Tag Plugins</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/16/tag-plugins/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/16/tag-plugins/</url>
+      <content type="html"><![CDATA[<p>The freemind theme offers several new tag plugins, so as to fully take advantages of Bootstrap.</p><p>To use these tag plugins, you need to install <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> first. In your blog root folder, execute the following command:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure><p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p><a id="more"></a><h2 id="Text-Color"><a href="#Text-Color" class="headerlink" title="Text Color"></a>Text Color</h2><p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p><h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor [style] %&#125;</div><div class="line">  text string</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor muted %&#125;</div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor primary %&#125;</div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor success %&#125;</div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor info %&#125;</div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor warning %&#125;</div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor danger %&#125;</div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p><p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p><p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p><p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p><h2 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h2><p>Inserts a button with target links, text and specified color.</p><h3 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-1"><a href="#Examples-1" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% btn http://hahack.com hahack %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack primary %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack success %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack warning %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack danger %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack info %&#125;</div></pre></td></tr></table></figure><h3 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a><h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels"></a>Labels</h2><p>Inserts a label with text and specified color.</p><h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-2"><a href="#Examples-2" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% label default %&#125;</div><div class="line"></div><div class="line">&#123;% label warinng warning %&#125;</div><div class="line"></div><div class="line">&#123;% label success success %&#125;</div><div class="line"></div><div class="line">&#123;% label danger danger %&#125;</div><div class="line"></div><div class="line">&#123;% label primary primary %&#125;</div><div class="line"></div><div class="line">&#123;% label info info %&#125;</div></pre></td></tr></table></figure><h3 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h3><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="Badges"><a href="#Badges" class="headerlink" title="Badges"></a>Badges</h2><p>Inserts a badge with text.</p><h3 id="Syntax-3"><a href="#Syntax-3" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge text %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-3"><a href="#Examples-3" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge 42 %&#125;</div></pre></td></tr></table></figure><h3 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h3><span class="badge">42</span><h2 id="Alerts"><a href="#Alerts" class="headerlink" title="Alerts"></a>Alerts</h2><p>Inserts alert messages with text and specified color.</p><h3 id="Syntax-4"><a href="#Syntax-4" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% alert [style] %&#125;</div><div class="line">   Alert string</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="Examples-4"><a href="#Examples-4" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% alert warning %&#125;</div><div class="line">Best check yo self, you&apos;re not looking too good.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert danger %&#125;</div><div class="line">Change a few things up and try submitting again.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert success %&#125;</div><div class="line">You successfully read this important alert message.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert info %&#125;</div><div class="line">This alert needs your attention, but it&apos;s not super important.</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div><div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  You successfully read this important alert message.</div><div class="alert alert-info"><i class="fa fa-info"></i>  This alert needs your attention, but it's not super important.</div>]]></content>
+      
       <categories>
-        <category>算法与原理</category>
+          
+          <category> Docs </category>
+          
       </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EI期刊</title>
-    <url>/2024/01/05/%E6%8A%95%E7%A8%BF%E4%B8%8E%E5%8F%91%E8%A1%A8/%E4%BA%A4%E9%80%9AEI%E6%9C%9F%E5%88%8A/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7fea4dc7852495ffe081baaed27779207dba8a61e7a98538af84c5f84f5fa883">b926c11326fbb5e8a48955f4928387b1790a8b5215763c67a52cef439a825b92754e13bb51dfc05785a0520ecf2430644782f415903eb3b9c0afd474774c72a9f8f6a4c5c39b2d57dcdbdd75260babfb397ab1a1c675b7efd7ab7766d021d118ea7f7e460858998ed14d40cc9590f1daa334d74210fed056360ae583ed90aa09501a9a9b781d9f733284fa040717a8af3f9ba44b9ff7ea34abc94b725f459184a3f8d82592e2d3502015dbc121ef65daf2f99265d2f4ea379ae8b27cc64af91698aa38be12e6392de3e55a4aba60359de041e1e82e7e7dd78370c5af11dc8f7c1e200c6096b10d67cda3cc24c83feacd0a182060f11998ff3f9d7865c91067a80b551aff166b4e1764ddcdf5b21d7c2aa3b17b0c7202250a9f0ec9c668a59c2b72b952e3ca1d06473ab51bb0240a2b6fae7d1ae9f30d2bbe03897e721ea4b5323986a54e732f2a59ecf047b889a394fba84632a7b9725fad4028681c56b5e5d07be0b6ecc8615c13a0a5887f9dde91ead0edc42d585fa73a2e3e5d4be318b7d6cc0a79c73e57eec33ff3db0b464eca40bf52b70b0d40ee00e5f8003e2443f8782efcebb3e130422baf12268dd2257eb29f7fd30d324622f4b0d8284f0962a5b3c85562e9a22377f96aef061bbcf7a32c401e8c5dc1fa508e586a4c41a29fbb4f2760c67395371076a66d20c6dab5c7c5001cb7b17091351f017851c9796a09d683506f4f6bf451e0118ee6b20706f2324a5c00bec55c401dcb2ef32c99157d14242da144bb2f6c864c4c3623372b6ddb46290c9615a3382fc6276ff9964327162370679c7f856a7476c684c65d7a15054e82922ccf6413cd9c0d831ea968acd8aa4d1acb4de9b6447174fd4111aed47309a87ee3075767c563d6096900fbdb044a4140595c4085f1ecc4b1165ff3f99734f877dab06ad177d6142e638b98b709eead95a19af62bd6a480037164eb7319b97b141ec45c7242b7824aca8a16f55e344a2863a75f1ffc4b7a4321352a8257aedba77998fc37a9a07fd52149bf3055fb8e5725115b339874971e930bcad8889eeaf7d193cd98451f99538af0d58a7c69a77eff0f59abb1f18bdda08a1aec13fe0d2bf90a5e7c8ab29b7c9de84b1f73ebc8b2b911a6e1d18a0c300e082bbe45e65f4a3399d3714d4c9a45648aa63b56b1c6cdf31e58436809320ebea59f0fffdbcfb0515872eec219f6ac1eca4781bddc33f0df3c353d2f560cec9c75382531372a7b65ba7b87b4a631ba71123e9953e3903c2d9d23cd7bbb2dcdbc7631e5e6bb0e447f056a89eea19c050bbcdb1154e4cbd8962d92d0a3a1852080f6a95d538a3647ae900f19bc772249a66cb422744bcf8e91bcabbc77fde369137b1793903b689223585e24d7655ea0621ffe95358799468f975b6042e7afa5eba76356da19e8dc8e872ee8a2d2d7c8509c7d4744448412ddf0afa6cd7b8b36b3c03c549459feea0ee4530c0e463a3291516ac46aec672e130a8ae2ef247fad4efcb4dd12b7a02588c97667b103e94c7fe5a09537d4d59bbec2a91870fa39dccfb386d684f53084d82b4330882a8069c0f8c1dfbf314e13eeeba9c45414a469fbc4619c260250d71f773322bdd5281cc6d44af9a0ae21ff46be835d3f5fd99d5397ed7c06d336b2cb797ed56b8111c4def2296393f73d74b34f8f97bde3e66eddaf59c7230f3b49bed503edd4fe7c4d7ff599bbcbc8aa3798810cd36a232404b9556e1766b5faea5e1bbfd0d57e04b3707f347338b23df2cd9d069ff026136d5375598885952ea894a1a877702ca7dbf75e46700b20e48480308ad43d2b1a28cb1afeba136a0f4ff01e22ec8a7db317f9c1eee4fee556d300d607d43fc9399c3557c56ca630e46bbdaec893800a7bc7c7572cc767ded3fa8c7206174e8329b5301203b661af10a004c4a36a6d15c782bf592682d8c114cd0b94f48fa691b6b224e2fffc1698738ea3742a8331973df6ed5f69c0d6efcc51bcb9c5e66a8833c99681a057491e465679bcd5b684863b3c25ef7eb61e222fdb49916144a9b9ff93cf3fd017197d40d44b4dc2e864cd973e2e28539c75c123bf4b0bc611a255ea0978d1521dde6623d42a97880b9a89e304915ac4bfdd890ab9412324c46b45313c848df48b0e736fc2173fffd9a1f84df5d390d62b09d9d9ac4942df1ed74ea7c59f843f994e591dbf175048962a0881a502d56a131ad64c1801c7cb610a5677558017f041109590db818cf1ec8fa50aa172c1238bb38efeef671f4d847eff64fbda17f745b10de478a6e6e893eeaaac7eeaefb239e9c2a32eeab7c27d7bbdc1d46fab8da31c763c66183be49c256c2d566825cce5d58436d73827bdaf010f0df2d68326bff005629c75bb33dff1c3e3f1bea03cc5a727df898a1f0169ae54d7793f4ce2c4656f9a8ca4b34bdd510281fc1d680fc57bc735477110f4d77ccf9cf1d62678e254bf8a26121080c671048e5a3439526781e4e75f9b4b4e50ec0c019560dbace7e152ee8589443f8bf3176abe01bc3ea3f0bf220597c4ac24a89f97fa7a3850d8d4099e4b2c256956f89a3faf9736cb75e1f2652a5c7ab78c583df0cbf5ab08fd8091d49205d37a9f0197adca52488bb355a384afaa0f7b1df9930fa0046a85da372a30e3b10ec94de0c1a1de47f7fec52fcbdecd4bcaf0fbb115ede6cbc3d39c1b6fef76a608d926e8d5da204c5bf3f8a2b8a8382c5b8df4a24cb472dc170021c74d57a192853ced1b9db53b5a16de471712e7efa1c0af9c24bbf83123f74321007501cd1c88d292691f126d9c02c5f40c83d27fbe53088676f3ff3c5ee98ebd63c0969b065edf34ea8d011a8db802b63523879f02b36ba29d6b5dcbd3420273922e91dc90bfb27440a038fadcf8bcbf9277c93c1ee7188c0b06c54cdd6d6c76391aac397f6182ee45f690c39101939a3da7eb6bf8e114dc0a841913a54814896a33bc9e8b16a3dd121fb3d7afbde63e5222b37241bbe0240b0017cf68e446a423d5a8dd0cdda01a7ef483692e6745675482c4a7331e29a9b499087b4e1aeafe920da40c76536e0e5a770e3bdc0a124c6738e5ab71808d660922a44008ee0404e8aa5b5c69bf5bb13a92345f8451f02164044440482f72f490c5e0e0f78ca9965e7cc597a23ee7e91ab8904b3329314c626e1f55704cc3072284528758875f06c5c1235b5574284c54e80cb07a86094112ab147f7f554e2ae4e5d6b60a2eeaa0c2576b098c0f2eed45220352da90515373d997cb1200b014fec867b9413cb1099608a4b06f3a20834369eb93f11dd6fc206baa839f9f49432f65369f4340623ca7501dc4584f93abf22c7d90155b8c72b90cc6c31259d837c393aaa8cbe5633b6cb1388a1421fae42cf05daf86c85d20dc9408c32476858cf1bbf59d7afde6a95e0cc74d5bf17c0f54aaeca2913efbd832a9a7415ff9a03bb129538804dd205aa9963d71116b803888fef9d4dbb18a222580b4a1f9270a28c5d877282a183a900d018c82f7da5924363f254d4545ff3a4c498148ab7487eacda453cd14b084d9750ce7edacdda230715a1191258388677130764e578d6fae8b15fea947caa90238063073535cf2c8a30d1cf0f6c76d51b035a00120265ad0e6edad9e203cf1147fea19f089816b6b999e7561490e7471bee6c60cf43831f4b17a8779773e7907873304e3c50a499cf660ab1c9ab98f04b38306052b04d92694869e8ccdbbdd8c68de183b85619058bd1ae2360dd0b2241d3d51fc59d8f7cd27f516a55426fdcab76bf4c300f1e9755720867311a7945264ac60fe9517dce042ab4355dfe40f0a56a89cfe9e1c8c370fbc57391ef7dec2685002b2a54f169f6e0beb9ea2e9643e623b027c238f3bb69fe66a459f9f028f947bf2b6df0793e8bc19d7cd92e564402224847357b44d4b3d1b19ab65188551b7abd3bf6546bf4cd4cb7ec2bfe151e4df68b850206f56d57ae25f0591908395dc954f48c98190a149c3651283cda41f59e2f8122fd9ec859e64fa8116266f951a7e1e300a5af2d1f0f4669768042c955ef7e415380f87002be6f7acf022a741a89010d7c4668d3d65499e3da44e51ad4cedbe559127690a529a66c5b095b677d58e4775231d576067faed853ba2602e8233dbdb3a03598806fe4c5c0d07c65d82b81d649c31b807a9635924a835c88d83dca0218ad78a7dd122b0f2bd19803ae150e21f0f29de7e7d079c7ee837af84e2fb8bdfd1a3534f438da3fb388d5298e0077183b68fdc0489c88c3b79bce471bcf1f991bc72327c4cb55b29ef28e88aec8683baf554eec5d99d047456ab7b28d9471b216db541c66fe983b29a933c10d7e93d2252cf8cd22492db9623c28049472301ba4881f65d4cf640ab4a4f94e7e8b2392582235d93e2a3c58e60adb462a631d0f490d3e2b188c80dae1c6c1b75ff585e1dbeed91b8dbab7c397db2e9edf4e002fc09770f601630b7afd7c2d6dd426cc244c869dd0dfac4287d917b609d535df4d800df09bc07c1668eda2a1494ec22b616046530cbbfbcfb6b05e455e18d0984125cf6930fbabbffa47a2038145d78b16ebf07875f2f612e93d565ec9b714d6986ee996a5d85eeebbea8c4c07d2581a0eed39e50554aa84c78dba8135fdf3b44c5515f64a3dacfc5caacc0c08486b3622dbfa229652296efc6d3007104d274e70493e2df2ad61a3948dd6755f1d602ff3e9f291daa38fce1e34a7b790cc63493cf46f6ce5340dc8ae534efb16ed8eae83ef5960c5fa8a596b996673d037b0f47c1aa7c411d3c35c9986e70870c5bd80754f214855a1200b42cca86c9b32a1df01e17ef7cdfd3151b7e20d17dc8229a02f72e2c4e761051e6cc755df047b02ebaaef5062463d6c58ebbed3c8701c02446996d9079bee02de3ddea88f03d0fd6220cbd3fcb3a48cb168122cdc8cfe4f83d6ecc72923a2d119784bfb802923ae8afabdf47df2d8081c0454895d2dc524576307b94703ed8a0cc311681324d7d9e297a9e4e950de40461178a0ff678081380d2878c0f7c32f5069d70d56c2980a7409065790d3e8a6f3d924c9cb326b544e244380a27d2e9569b12788bc8a67c0d1f022fdcef26ddb11e41a14d67d1d43696e0b0d1b9e2de89d6d106ff4566db62964191962e045feb0e55285b4104b80c8c2c9facbe3479e049c4638b3df6faf883f00861ee97bf4542750a74ccf3e81d917164562ed172cbc3cde9e5b07d840077cc642aab73234fe9314a979546de7dc4e5bbd575890166844d1e860563d2eb348f09fa96e3aa87544d36b6ee9315849083a3d7b774dfccdff75ab673a21c7bb1199264ed2aca319cc54d22be2154ed1435a29f9f78a8342707108b872a467917d3af3619252331802e08b761241a95b3a45fb13f88ec10e40e9cfb63c6780a46de6f98ddb14c73aa0c3719974c1e842e874c33b52551573670f3e5ef3e1a3559c26e45bfc6c2e78a549ceefeb61c2bed274c0fd9aea6bf7075379db13561086af192575f856ed09e336e5a6b476e1bff0e09ea1175d7eb4b6eaaf109046758fece6eb07095aaafadd50035621c44af30016a561fbd8e1bc2e8c8d4858c0f7a90e77c1d6ac64db2df9839ea6037f250380d16f08fd0df8db10afc4179eb2e952fb0a6a69ad4622007b6a2f78a116738b55d7cdfb59d76ed70f6b0d6138769cb877a40979e2125e49a6e29eac2eae0d80445550862ce6f733d14c9ea9879a7633f641743fb09c4199c913becd74508377305e23c17d9ffc0af47cfdf21719624202b950944a5fda690b5875c72a09b391c630ec0505163f7c6feb2b73ce7024e37482c0a10c186229b511c413ee1f08666cf080599f049588ad254cca1831be979d8c48be8ccc4744bbc6470fe8f89cf1d0b4f3a1b27c88f0b34db6a9ccfd39c6cb9fbdc68761b99c07f595a76b4ffce9e8618806c5753fbdc032be91c2adf6c83b0622092f01a6cffd11021dd2a2d6b1c0c0791c9eb5c06c76d691173f08ec44b7e7c4895d1ccdea28a7092ce190ec80094727bc85c37c7cf231267790096d25843c3bbd4dc8e09ddccdbf90f0c7ab177d4bccf22f7a5ba50afc755188d05866bb61f081af7161eec61d77cb114b1fc0d357b0c5226c5c93d44a1ad55e4c9774fa86ec0ba689b9b6af12c1aaa3f749e776bcbbd2bc1f6c22c170a402c810a0d5020f0da1f4c42a419c6cb4557ea0ccd51f71a0bb25d8771cbca4ad56d3a4a2db6343442af9f65a86534382f5a99c6277823d5b5b076cf0560d99e1ab22e270c71dc7a3b7c25114262a21ab7e2f872ea83cb1379825e0f34168b2f0cac70f390e44282c9c7df95f796ba970d20bd59e63469707cd18d05929397e71749c92aebe2ed554c257fb6f6527d4dd040cc35a42699e0eadd262f37a605f40acab5249e5fed88ac63b692676384007b17bd9d8e4ddd88413f5a602e59fc510b961bb31742953ba9d260665fede45e1c204cccf5d8b54ab006bdff663ac3f262354093ae5b4eef25b955452f2163bc243595b5402763e84bea250efec5fa8774de0639107de56f51efd9d37aca6ea8f2effa3a4049480c2dd25bae54ceb204dde2ebe9bff41f1278a44d4b056576b75fe81c61216595571d7050595474a45b73b163c1b5ab315c57eb125bb9b4cb61a05375b1f3298ff975ea0bb798678f3f95c054b060dee9131ef6aef9cb75793f7bf6c6f887f41862e158c5f122a648bc54b4978e2ea40078f849b9c29ecc561e14f067a90996208fbc1aa901b62c5ef22e69c4fc1de5cf9d4ffe6984762aa93f121bbca75fad86baecce0302022fad08d9769a5c53aa9efe4572228f3a1641702f9862625c20da31576dc3eac4c908983de8424db4537736f487fea2bc43cfb5a1ffc3ae59a1cd32f836dc02af324c20b21080ed3f2c049f20f62dfafe817bd4796370dec3097002a31db1b73194079bbd8479c84b7b67a74295038b475a92a792fdcb771296337601a39b3d690de8cb41405e594a224fac940c71adce872f6577c82a57d8a90f5c0af97f9620ad6225d3c94ca67de738e9e6c007e1c48a52cd5ed217bcfa94d1e95e64ead2bd8f0c974354ed2a6f85f43327270a5eb018966841577212997e750360830d82751c15fff9382827c916f691da9acd175637ec1cb38acfa5069599e1d54f397b4d83fe13692cf96538ab25b246936c9cb1c2d3a583dfcc824fc0d8a760c3d0643c66db4affca0e4fe4e92bc9833608414f7e3f8a5721b83a0d00365748ccc18da5a76a65ef6d8304e87fc7c16ba20d790c926a529e4d728799b113524e96b1068b6cf0d530dc07dc2186f6adc34857dbc1c4a336ad09d60a5652f30e2df076cd3888825b8cbdd17a02975707ce319b401d57969aedf1fd875a16e0766cc015f245d3ce06e43c615c5b29ed8b1b90bad1424d3b4d4839c246bbd72c554e7e2394254452c3ce5e779928d0dd792b4806440d9ba4bb6c412cc866d117d0c7150307d8aaaf2d4b9f21df007f1cb4e5d16c7422f4e59ad4d09c2a2f4ee70e0770b25f6a75a49eb7380a6373945e80431fb42f628a9314c3ec1106c414e0a2e539bbbaa71c7ba4b8fc26eb056b272930a32776b1c335650a0815fb60888f71beeb25050fda355165b1cc4f2f700e800d237fe696f8ad7166d98eaf326e7a1de2bc42b87083af674e68ddc322edbd117c2382a5385a4262c8db3339028cf5b3393fc6a210863c450fc28483cbeeada69ce4652b2988016a1a60b9555745f5e3e6f8302a51685899c809a31bac5fcf9dabc8597ec4866e564aa63df8574170dd5b554c8ec794228771be8678d7f8021f823639f2ca1b6a445191921830a02c062abb28db296ac8c1c1cb7eee5317f4ade33032e53ee32ad98ad80e4927ce51d0cd5289a7e490bc2deb61842b3e8d59092705a42133dd0e4745a0731e0528c313de0b5a989482c7bda92cd33016b9e5b7ed72b26abd9f1e082905ffd32870f0c125e293249c202b4d606a8b235da797a96c7a2474e8ba7ce6d81dadbc765befc6029dcfa1bec5c050a05935f180e6f615e207381543e57003dfbd56fb8dc54262db6aca90d71554408e91d22c378fb3b27e4cb6ce17f879e8b0b8dea952263491a163b5bb0fcbaa270376bdc4a1fb65bbef12b59bc7b2e6c54759d42c2f1a636a4f8db78266196f6b2b8f6d55186aee3e52014e4f3a897634023abe29d1174aefa21cfee645953e069240b35c541c7b09b3ba9263d1beabe448232c753d10c06f2e0fa50b676571a78b65a73719ba3b915ce6bbeeefdc15c095636b5ee5a95dc1622c4972c0d0dd9121fd757cf1f717295eab903b1c3a859e00f581d1bd8b46ecb542b6414e78a1d6005dfa0796addc70e13459a19701bcd9c0a15e11c77e129e78c0ef6629f8f6e95f164f85504b5949705c2b332f0864b97a0de2812881dbccb5fd33123386802d9717d6d7607f2d6163c21489986ba2e0e92b79896071a2af22604424462c1a0f2e8f2bb82a7a258f301bcf1ec5d7e92299254268ed19654de99857c2c7712801e0e9b062e5b5a54c35e81c51eb17483a09d829373a1bac22b5faa25871d205f392390634f0d4762543c3d6ef9c79bed8abd01cc6f6507cf56fc67565e9b5db979a80dce15eef85846c1ee20a1aaf12014b98031e23ddfc3f3881e215d29859f0cf9128cb980eeb2d65c46a9d33edbc20fa784c0ee23f8cecbe62b05ccc5b26c18f5ad66526d79ba4d8996e1a97ade6409b7125a198200d79d3553589f73cb056782559760af174e7af9cbab73242b98bd8189cdde1fe5d6a3155d0f8c5c46f2e0d251c4370aab074395e22330bfee21ae6159334e012e4c7a1fc986ac16bd266332e9b3d1d226039e9eed53d19bedd069b010bf862224194ccef0a37b46966b6d5f2229135596123a9bf5f64c43cd629f4bbf713a3f387be647b58be0103f6855c1efefa50da44cf214e7392b089a6413837d3e9c2d6a07b5e7cde94b69c83d9e58d9c6e10f4780ad63f97ce743b4aebe5fefc7b1bc8a585bd94c334f4da1b82ac1e4633c4e10948358a12d2c1ff21e9c398a9e60c34f0e5cbed869258583b8efcfc080f053dbe7e38686ac6d8594b095ef5ad550a8e1a9911a74a59c39c5c6ab3c3a052a116f53c59439444369a1c0f681f8d8979e74ee9126f625e3d3fc683687c341b46e70fe5509e04e48d18944d43ba0e3f1382d124db3475128016448cbb4a81e789318b8e1b593820f94e6a0416378673365282a7b034161f816bb8a8410969db5c8903df745f5d3d927978f757d7c2389f8c9577c6057c69f655f05dc34afd5fa5004bf78a086f872dd9c90596c21af3f1bce7be0d34410d85ebd30478033b2c487f1d2ce9a5a9a3ea664c04d0b65595f96b471fb82bf03682fd0ff578c22bf52a5f211df4a78261f369fdca1ba2d567f4d97105760cd88d5a9792f411b8c92253ff4eaaa388de38af10a323f2844e126f1927e1343faa9dadfc88345576d74b53834f4ac0c971e5fb499a958af32bc16a4eb80f20d57ed41afad14a8e7eb0c76ed8cf2dbe86f5cc98b4044439a7c225e1e883918206f85f14d6d4dfee95b323ca0891135033ba0e79638c72b5d026a596e244138d1f7f2ac063e7fe3de4aa0309bc4809f9cc9794d8dd7296c992b4e27f372269e77a734a1997c72b62557c150c7e743dec2851fb2155be45abc4739583f8cf1f05569fc490c64c81543015ad1af6c7dbbceee28953871d2b0b7ed205f6037d243412ec31786351f52b2168424801142375b14fb5b29390cdecba7bc1ea00f8fca04a2d88d0408b72e338e1d1dd6010155599e5eba1dc221954874d74176065b32b62a203fd2e55bf89cb14d12a9db01446541645c9dca87ba9f1000cf66f38ea701800d8cf7b5ec79627cd2bd8c84343ba59ed09c43f11d5e1dc6870c81d11bcafcf17699dfa1c08a63e28695ea936cbc681b98dbb7dde5f9f20bd04c56c852c4170043f04bf528ec2120fce2bddd62dfdfbfe1402dee33f7e81452e02e18ba8724c79c9fda49425bea77c85c1a77feecddd26d54a2ce6011b0a1ff69e8d7b0dc4cf83b5ff571f3111aa52606e75ed5308f2edb9d8ab115c3f0c22e87bc4100a2f6e66507cbe3efeb9444f0cc3b4e3a8eced7500550e8107636b6d56c9136bc0f9df0dc6b45ce7d36af07b515c554009eaef2594a3e015e64e7fd472baa141baa1fe3a6e09249a1a496000b2d33a1838be3283aefbd3bec513661280b895d73263ac0310e9f39d24c1bdfb4715d212fffb03c15bf02a213a5adc8b28cdf50bf9b73a8f120860fcb8d9cf9071e0508b5dbdfb156e9efb696ac724a40e9ed5ed336a79d7425fa659c66748403ea370865f3bdd9d588cca70f3683c5cc5fdd22a180ca7cffb0b17884f7ec727c8401a3d8375ac3b93916cc79059640e409ff14d61084c21c5ceb429d32d5d33543444efe30c25a107da3da7c504be84a36f99241492522e4e6865978dc247d32ac4c7e8d57f2e7e4a51caceda01dc8c982c24147847982537efd4a624419278dc67cc47577b8732a03535cf99fcf7a50b18726869aec44ed5e97c161fbd0c404fcb9d5b970854f6cbe4b6dba8f76af785b95285c52fb2a2b8fd51d8faea9999d2ed3d8073f0c34df9645125926cb457e3807460f278f4a1cf27ca24ddadae9e21b9dfe300d0014f3ff4be2fee12ea502e73d4e583b1896cea4bcc14094c9ab50b5510401ddb1bd9ab6f6de19e219961d5a720bb6db8c4197dd4c2a38783c1360b83ef4a0849fb7a650c29378e096aad9fd355b5f45d34a5e163e06251ae4808d1195c09352e3fd20881a477c095a55ad90cb87a21f795c4e34009f3dd534b037add0cf10d0500c0f2bfb6645a30b199dbc23ee041452d70361460b99ba4656a737a809f4ed42f2aacffa1db72f11ef24d7886cd4e0a1f55652abf6cf85e4bd2e32e95f33e1e82304dd919877336f8c92f685b4d68896c3c164f8d78518e10000ad66b4a7d785f376b9092e4a56d2b2e9ce55e017c4e101d49891244491cc96ab08e65a8abed6f9ecea459777cd835c93ea5c58c21973973c683b8c4915f399e129d2dc78bedfe092f2d681ff48bff65c094e3de5dd3a3ac255ada8f1621092e1d7b2b2ad95846658d118b486ef18d22ae335331da5daaf83bd02e84a08fe1fb13f56dce783e67260c4a3e8b8d7ecc9ed53b8255bf37766548b4da38ad880f0723b5e245a3e371b6d33f9681767b80a7ff720a9f075c817657c81248b48905c8b3e6a8ec5680d923668a822ace5dc8792e16833c0eb1614763378ff38aab1e58b0fa1b710ff7567f5b483adc8a7ff93b58ff728fb41cfd0466ec1cf91b43986f73002cae2baeb6957b2a7098e971487aa12e8795250111a17633077a67e609f64cebed1092b9fae95b10aee3842792d8072f805bebde9fb575c15ce89c33cb5c36148d2320bfdbd78268638c2b597fc57dfdc7650247eddf3108886451e653be1b338d0165bf1d9ee5eaf8883a743fc73d08263b8b064012c387273ef7c76b593758a21c19da167ba1c8ca0bd4ad26fc462ac0fb03c76b03c73366cd4247522e517e2a00bdbf6f8d1e2db3c76ca41448e6c562be38914c7c20325ba576c28ed06ff26c65742719c6acdaf9a1f1ed82ab3323930c4992ddef6a0401bccb14a7b5c4e295f49a44a967c1173be410aa654ebccdd61bea37965354bee8f0d517c0bcc422b1956196ec52355860df3105cf160ee8a05f900e38c9dcb415a56d9a3a7b36ff638ae69d898589838dd595d70be99517ff681a6ffff9148bf67f8deea85114c4601954b439ec7b0a372039985a969c240a0c946b52ecbdbb52941594e222ba4015f81ba018d64fdae3793079526a14ba37e9381c903e7611c3fd8f795860d9d42ea1c80e05ff8b49b64b46f0c1fb535eb50045b96e40e66f25e6fbf89cbeb8371c0fabe194aa43b9156484d7a8aefa5a5dbc8c808a42ea2d45c10e2a44da2df115920ccfc77d7a2bec3adf971047179cd4cf856cd942e15caed58b3df88b6113f77593eb7bb5733c39ecea3543d7ed161749426175acff94eb5a023ba6f83609daa761e5a250bc734bfa7a9b3265a7c413524f85a4c778021fea76b303539f5d3894cc340712bb9c33f50b1b5e36e1ec082847b95a68abef22fc29824e0017b6bdb093e90cd9f279fbd4c5759de5a75fcfff9d98e779fad13cc93a59500ac4a3588c69c87ef4e6b9a239635fc1b5a7c266b7fac363b1d09048443722733ce19033d7c01f71a0cdf918c234f7ba0683ff774c12e229eba5e4172209fff24316be2223cc12dfa24f3e3e79f60f743e4c5eddf6f600f6661f177952d04829ae3ad3a341209e49aead1e3588c8adfc6d5a05e0ac4186cd5cae1ecf1d505955b3689d3c8ded7e523806e90a3da18458828aa70a754475a79ee8ca79442ffc3ae1b603eeef996da2f006ad11ca49c561612a23001cc4d534d87798ebdf7230976e6298902a6a0bcc2b2ba34da08e8ba4f1986383a333c7bdf3a52556abc578be375f00ad19ce9c3793e8dd7c901d1ae512b0f164e0b443627f33ac1c160bff52e8fc9070559d08d2e451d171f1acf3d2c2bcee868c7e12b6477b1c3cea2a092d5339ec471ae43edb7986910a2eca97db26af965140a317f5a5e4cfd97cc5156275d905732105fa6654fe280a62e473f1c7f6219c7a08f191bb138a026e7e006c07d8374743b04b7b2045b06cbd6e3476fd6f19ac9456800603cab9cd58a1d3fbb1db49bac57fe928f190c1aff4eb733c599196b9562950cb59423f82019478c5244cea5984be18c14211fd18ebb1835b68c42c07c98d1bddd7e5f0946fc76d94e3ecf1a597fa98911bd2e224eff62d556ffb37825f21aa89c2fabfe2afba49c4bcb057719180743f786f1cb1b734aee846bd86371bb8aa425090ee1ca50ed23639e9c7652959beb71b4d4e027d723a667cef56395e133b4909c1e7e42817048a1fcda18bd747ba4f2c114536975372e980ee0865b263e3f719e8901f36a441d394c49c6d5f51716db1a8719533847f6400e7f157b86d7b6d07b10592f38605fcf8440691e91c5fbd33f8acbced41cc509e8d4858e6f669e1ab863229e734844a2251dfac784b7c3ac1ae5bc1affe985fc1afc85002b8ceaac3696c41cdd8c0bd0c7fd3f5ac0f2b97107ed4cfde589b5cefd676b2fdb8f53c4210607a968b005b3cddae6525b980391038b400222ca0e94ae0aa4162c88090eba078798e7c063c28f0d4b9ea6f533a7361aedbe451530b585c555f30ccbd5e192fdb4ff17125d72442c5cfe399c56cf32e0c06a16879e179979c35f8111e14b7c855a71ded9c5d834fd3fed74a8fc35a9018f9fc64c14610b1f101912f2400f5319ba5b93f8c89744f17bb308af07fa623e9dacbd9b6e4e965d79bc686ab13a509a6028abea774cbce28c27fa90fe3dc172585a3072c25a869fed6a1dc73ca8ce77c9bc053a3c1a79e206efc27396e5191dfaaa7dc5a4aa719ac87597f009982414c315ff606966257f9fa227926fb16e6a601afb75e728af636cb2ce35a0be8f0856b5e92ca35be91bf33801454bee8eea4d25fce29c84deeb3662947bb125a3b767ad29e979c67f23b79c60d61ac1b4b3523b1b15f32ea520e937ed4f04e44be6d018213c372ff3dbace7cbdad72892630e993c875a98d61418f16bb79de6017662841e2a3f37b763c8a166e65f8a7f8d42399135bf0ab19aa1b450b8b5986f91bff223a2599c4a980b16dcfad7a3bbd25871a6d87c8a58d64cee7c7356737595c47e043400a166a3837c0c03ab643da213ff48f1df70480e34fac44bf7fe5f452d03aae16333e7b9e22fc05fedde7ce35e7ba6204b1df40efe7073fdfefcb031bc14013c7a1e30bc62fbe7ba003273ce0843dd95e7a6d106294cf63f217514cb85a5e05a365daccde289473b3f230a1b48318038e74b02961d694c483436c3e714c190b7f7a657aed130a80fb016652b7bade768963e84712fa08902c35017e8a7f93f4a6ad39b061423e1f6b3b0f1e8381e8d05bc09abb2d26975e36a2c23343b1e6022bd4a92c26a0b715c459f47a4d135c88769d6f8ea6cadbffa7ce83939eb2e785d35c5eb8c68f8efdcd57bc2b152d6903105ad6aa925f39955d0a3d8220735f465e496b7229158ab4771dc60a97ef24306e306d289245bcfbd737f8f6af113a6e1b70e412e5c05807a4d5d78daae81df588b31ae44b6bbdce8d32758a17f07b372d3912daa02cf40935faf4c9b258bd418e2afccf0cb185e222810a60113baad51e650b98d2ca30a95f9a342357ff303a36987e2a087bb7537438a385a39cafb7a45d7282de3f105257dcba33c6109a50c6c0b68d550fd5d14723459f702594043e7184efe1279e236fc0beba151cb2f1ebeb0b954bdb3855cec412c2d0babc604aedd58fe9340b57b7ca593bc9ae23bf21cfe779293b7a361d1b5f2cd074f9f75a3453c81f920fac1826c8dfa4b1d5e37554d0bd6994d6ee13f30d905baa49a6b83521c012ff9b0a6bbf2e1ad449479c431b7394d74631330af68a36a9107626596be89120c9e52a734e3dd7f11c3260074f1fa09fddb126ac91ec334af86646ead85bdf16fb7e3ec4fde471803727521e0a6e263552915b323fe5de42207f33e48275bbb1cab1194a59879079fd01392d1714ccdc4488e3a4219244ac303dd4d7246013f55cc798eb51c76e21e09fe7bba938a43854037c0bc9268c193d752255329fc279ba2cc43423ff1bf30b59e1ed9b68890ce33236d39aea4a94c39e9cc76faea56d47e15eb44dd80a99eeffde2916eb9e7678ef3cf918c0725ed422793011bdf51fec0db874869c4520ede751b1e66f05f2c6c42d0f3a633611cfd66d2b5adcd037ae27339d2fa5ad134d8a009c800d739d448c2c2c447b8b805be9d8c7d881fcea0a91e230a3415868c96af3100bed863a8a4ca23650e2610360288750a8aff13c4127f29c8a71bde4af7467aed5a0d980fb6f4f556a23296dad05da52cfb119fce0b70225997951a98fbef5abcc18699a1eae6d51783e7358d05c3995258e344e61a9cc26ec1880809f96cac59373f2e8592fac1ef32c221e7ff6209df815fcfa83eaccf7f3d2569ec233bd751fbcbd</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里输入密码捏.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+        <tags>
+            
+            <tag> plugins </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Tag Plugins（中文）</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/16/tag-plugins-cn/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/16/tag-plugins-cn/</url>
+      <content type="html"><![CDATA[<p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p><p>在使用这些 tag plugins 之前，你需要先安装 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 。在你的 Hexo 博客目录，执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure><p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p><a id="more"></a><h2 id="文本颜色"><a href="#文本颜色" class="headerlink" title="文本颜色"></a>文本颜色</h2><p>插入一段文本，并用特殊的颜色高亮它。</p><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor [style] %&#125;</div><div class="line">  text string</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&#123;% textcolor muted %&#125;</div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor primary %&#125;</div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor success %&#125;</div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor info %&#125;</div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor warning %&#125;</div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line">&#123;% endtextcolor %&#125;</div><div class="line"></div><div class="line">&#123;% textcolor danger %&#125;</div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line">&#123;% endtextcolor %&#125;</div></pre></td></tr></table></figure><h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p><p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p><p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p><p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p><p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p><h2 id="按钮（Buttons）"><a href="#按钮（Buttons）" class="headerlink" title="按钮（Buttons）"></a>按钮（Buttons）</h2><p>插入一个按钮，按钮可以带有链接、文本，并可以指定样式。</p><h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% btn http://hahack.com hahack %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack primary %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack success %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack warning %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack danger %&#125;</div><div class="line"></div><div class="line">&#123;% btn http://hahack.com hahack info %&#125;</div></pre></td></tr></table></figure><h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a><a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a><h2 id="标签（Labels）"><a href="#标签（Labels）" class="headerlink" title="标签（Labels）"></a>标签（Labels）</h2><p>插入一个标签，并为其指定文本和样式。</p><h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure><h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;% label default %&#125;</div><div class="line"></div><div class="line">&#123;% label warinng warning %&#125;</div><div class="line"></div><div class="line">&#123;% label success success %&#125;</div><div class="line"></div><div class="line">&#123;% label danger danger %&#125;</div><div class="line"></div><div class="line">&#123;% label primary primary %&#125;</div><div class="line"></div><div class="line">&#123;% label info info %&#125;</div></pre></td></tr></table></figure><h3 id="结果-2"><a href="#结果-2" class="headerlink" title="结果"></a>结果</h3><span class="label label-default">default</span><span class="label label-warning">warinng</span><span class="label label-success">success</span><span class="label label-danger">danger</span><span class="label label-primary">primary</span><span class="label label-info">info</span><h2 id="徽章（Badges）"><a href="#徽章（Badges）" class="headerlink" title="徽章（Badges）"></a>徽章（Badges）</h2><p>插入一个徽章，并为其指定文本。</p><h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge text %&#125;</div></pre></td></tr></table></figure><h3 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% badge 42 %&#125;</div></pre></td></tr></table></figure><h3 id="结果-3"><a href="#结果-3" class="headerlink" title="结果"></a>结果</h3><span class="badge">42</span><h2 id="警报（Alerts）"><a href="#警报（Alerts）" class="headerlink" title="警报（Alerts）"></a>警报（Alerts）</h2><p>插入一段警报文本信息，并为其指定样式。</p><h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% alert [style] %&#125;</div><div class="line">   Alert string</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="示例-4"><a href="#示例-4" class="headerlink" title="示例"></a>示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% alert warning %&#125;</div><div class="line">Best check yo self, you&apos;re not looking too good.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert danger %&#125;</div><div class="line">Change a few things up and try submitting again.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert success %&#125;</div><div class="line">You successfully read this important alert message.</div><div class="line">&#123;% endalert %&#125;</div><div class="line"></div><div class="line">&#123;% alert info %&#125;</div><div class="line">This alert needs your attention, but it&apos;s not super important.</div><div class="line">&#123;% endalert %&#125;</div></pre></td></tr></table></figure><h3 id="结果-4"><a href="#结果-4" class="headerlink" title="结果"></a>结果</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div><div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  You successfully read this important alert message.</div><div class="alert alert-info"><i class="fa fa-info"></i>  This alert needs your attention, but it's not super important.</div>]]></content>
+      
       <categories>
-        <category>投稿与发表</category>
+          
+          <category> Docs </category>
+          
       </categories>
-      <tags>
-        <tag>paper</tag>
-        <tag>journal</tag>
-        <tag>publish</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>transformer算法</title>
-    <url>/2023/12/08/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/Transformer%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h1><h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><p>Transformer最初是由Ashish Vaswani等人提出的一种用以完成机器翻译的Seq2Seq学习任务的全新网络结构，它完全基于注意力机制来实现从序列到序列的建模。相比于以往NLP模型中使用RNN或者编码-解码结构，其具有计算复杂度小、并行度高、容易学习长程依赖等优势。Transformer 网络结构如图所示。<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_36bacd24c87da37f5cc5cdd676d65f59.png" alt="Transformer网络结构"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> plugins </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Code Highlight</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/15/code-highlight/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/15/code-highlight/</url>
+      <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure><a id="more"></a><h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">helloWorld</span></span></div><div class="line">&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></div><div class="line">    &#123;</div><div class="line">        System.out.println(<span class="string">"Hello World"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Assembler"><a href="#Assembler" class="headerlink" title="Assembler"></a>Assembler</h2><figure class="highlight arm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">#include</span> &lt;stdio.h&gt;</div><div class="line"></div><div class="line"><span class="symbol">char</span> format[] = <span class="string">"%s %s\n"</span><span class="comment">;</span></div><div class="line"><span class="symbol">char</span> hello[] = <span class="string">"Hello"</span><span class="comment">;</span></div><div class="line"><span class="symbol">char</span> world[] = <span class="string">"world"</span><span class="comment">;</span></div><div class="line"><span class="symbol">void</span> main( void )</div><div class="line">&#123;</div><div class="line">   __asm</div><div class="line">   &#123;</div><div class="line">      <span class="keyword">mov </span> eax, offset world</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      <span class="keyword">mov </span> eax, offset hello</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      <span class="keyword">mov </span> eax, offset format</div><div class="line">      <span class="keyword">push </span>eax</div><div class="line">      call printf</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">      <span class="keyword">pop </span> ebx</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Net"><a href="#Net" class="headerlink" title=".Net"></a>.Net</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">// Hello World .NET</div><div class="line"></div><div class="line">#using &lt;mscorlib.dll&gt;</div><div class="line">using namespace System;</div><div class="line"></div><div class="line">int _tmain()</div><div class="line">&#123;</div><div class="line">    Console::WriteLine(S"Hello World");</div><div class="line">    return 0;</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="Erlang"><a href="#Erlang" class="headerlink" title="Erlang"></a>Erlang</h2><figure class="highlight erlang"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">-module</span><span class="params">(hello)</span>.</div><div class="line"><span class="keyword">-export</span><span class="params">([world/<span class="number">0</span>])</span>.</div><div class="line"></div><div class="line"><span class="function"><span class="title">world</span><span class="params">()</span> -&gt;</span> io:format(<span class="string">"Hello World"</span>).</div></pre></td></tr></table></figure><h2 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h2><figure class="highlight ruby"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/local/bin/ruby -w</span></div><div class="line">puts <span class="string">"Hello World"</span></div></pre></td></tr></table></figure><h2 id="BASIC"><a href="#BASIC" class="headerlink" title="BASIC"></a>BASIC</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">// Texas Instruments TI-81 BASIC</div><div class="line">Prgm1:HELLO...</div><div class="line">:Disp "HELLO WORLD"</div></pre></td></tr></table></figure><h2 id="Perl"><a href="#Perl" class="headerlink" title="Perl"></a>Perl</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin perl -w  </span></div><div class="line"><span class="keyword">print</span> (<span class="string">"Hello World"</span>);</div></pre></td></tr></table></figure><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/bin/python</span></div><div class="line">print(<span class="string">"Hello World"</span>)</div></pre></td></tr></table></figure><h2 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"><span class="built_in">echo</span> <span class="string">"Hello World"</span></div></pre></td></tr></table></figure><h2 id="Brainfuck"><a href="#Brainfuck" class="headerlink" title="Brainfuck"></a>Brainfuck</h2><figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="string">.</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="literal">+</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span></div><div class="line">&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span> &lt;<span class="string">.</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span><span class="title">]</span>&lt;<span class="literal">-</span><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span></div><div class="line"><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="literal">-</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span>&gt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="title">[</span>&lt;<span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span>&gt;<span class="literal">-</span> <span class="title">]</span>&lt;<span class="literal">+</span><span class="string">.</span><span class="title">[</span><span class="literal">-</span><span class="title">]</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="literal">+</span><span class="string">.</span></div></pre></td></tr></table></figure><h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure><h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure><h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>]]></content>
+      
       <categories>
-        <category>算法与原理</category>
+          
+          <category> Demo </category>
+          
       </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>matplotlib线型</title>
-    <url>/2023/12/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E5%86%99%E4%BD%9C/matplotlib%E7%BA%BF%E5%9E%8B/</url>
-    <content><![CDATA[<h1 id="线型"><a href="#线型" class="headerlink" title="线型"></a>线型</h1><h2 id="线条类型"><a href="#线条类型" class="headerlink" title="线条类型"></a>线条类型</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">虚线：linestyle = ‘- -’</span><br><span class="line">实线 ：linestyle = ‘-’</span><br><span class="line">横点线：linestyle = ‘- .’</span><br><span class="line">点划线：linestype = ‘:’</span><br></pre></td></tr></table></figure>
-
-<h2 id="线条折点"><a href="#线条折点" class="headerlink" title="线条折点"></a>线条折点</h2><pre><code>&quot;&quot;&quot;
-折点形状汇总表
-&quot;&quot;&quot;
-&#39;s&#39; : 方块状
-&#39;o&#39; : 实心圆
-&#39;^&#39; : 正三角形
-&#39;v&#39; : 反正三角形
-&#39;+&#39; : 加好
-&#39;*&#39; : 星号
-&#39;x&#39; : x号
-&#39;p&#39; : 五角星
-&#39;1&#39; : 三脚架标记
-&#39;2&#39; : 三脚架标记
-</code></pre>
-<h2 id="折点大小"><a href="#折点大小" class="headerlink" title="折点大小"></a>折点大小</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markersize = &quot;20&quot;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="边线颜色"><a href="#边线颜色" class="headerlink" title="边线颜色"></a>边线颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markeredgecolor = &quot;blue&quot;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="边线宽度"><a href="#边线宽度" class="headerlink" title="边线宽度"></a>边线宽度</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markeredgewidth = 5</span><br></pre></td></tr></table></figure>
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> highlight </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Lorem Ipsum</title>
+      <link href="/hexo-theme-freemind-blog/2014/03/15/lorem-ipsum/"/>
+      <url>/hexo-theme-freemind-blog/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p><img src="/hexo-theme-freemind-blog/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p><a id="more"></a><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>]]></content>
+      
       <categories>
-        <category>论文与写作</category>
+          
+          <category> Test </category>
+          
       </categories>
-      <tags>
-        <tag>paper</tag>
-        <tag>writing</tag>
-        <tag>matplotlib</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>matplotlib配色</title>
-    <url>/2023/12/08/%E8%AE%BA%E6%96%87%E4%B8%8E%E5%86%99%E4%BD%9C/matplotlib%E9%85%8D%E8%89%B2/</url>
-    <content><![CDATA[<h1 id="折线图配色"><a href="#折线图配色" class="headerlink" title="折线图配色"></a>折线图配色</h1><h2 id="配色代码"><a href="#配色代码" class="headerlink" title="配色代码"></a>配色代码</h2><p><img src="https://pic3.zhimg.com/v2-65cc7e250d09dc8adff93650d9523e22_r.jpg" alt="常见配色代码" title="matplotlib常见颜色代码"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">plt.bar(x, y, color=&#x27;r&#x27;)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h2 id="16进制RGB"><a href="#16进制RGB" class="headerlink" title="16进制RGB"></a>16进制RGB</h2><p>有一些场景对颜色有着严格的要求，可能需要<strong>精确地用RGB值</strong>来表示。上述函数中的color参数可以直接输入<strong>十六进制</strong>的RGB值，前两个数表示Red分量，中间两个数表示Green分量，最后两个数表示Blue分量。下面展示一个使用**[十六进制数]**表示颜色的例子，代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import matplotlib.pyplot as plt </span><br><span class="line">import numpy as np </span><br><span class="line">x = np.array([0, 1, 2, 3, 4]) </span><br><span class="line">y = np.array([5, 4, 3, 2, 1]) </span><br><span class="line"># [grey, darkblue, firebrick, lightgreen, hotpink] </span><br><span class="line">plt.bar(x, y, color=[&#x27;#808080&#x27;, &#x27;#00008B&#x27;, &#x27;#B22222&#x27;, &#x27;#90EE90&#x27;, &#x27;#FF69B4&#x27;])</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p><img src="https://pic2.zhimg.com/v2-3e0925149af53835ad47e98cad9c56a1_b.jpg" alt="16进制配色" title="效果图"></p>
-<h2 id="从渐变色体系中提取颜色"><a href="#从渐变色体系中提取颜色" class="headerlink" title="从渐变色体系中提取颜色"></a>从渐变色体系中提取颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import matplotlib.pyplot as plt </span><br><span class="line">from matplotlib import cm </span><br><span class="line">import numpy as np </span><br><span class="line">x = np.array([0, 1, 2, 3, 4]) </span><br><span class="line">y = np.array([5, 4, 3, 2, 1]) </span><br><span class="line">my_colors = cm.BuGn(np.arange(x.shape[0]) / x.shape[0]) plt.bar(x, y, color=my_colors) plt.show()</span><br></pre></td></tr></table></figure>
-<p>渐变色查询网站如下</p>
-<iframe width="100%" height="500" src="https://matplotlib.org/stable/users/explain/colors/colormaps.html" frameborder="0"></iframe>
-
-
-<p><img src="https://pic2.zhimg.com/v2-da9615a131269d6035e8c46bff784619_b.jpg" alt="渐变色提取" title="效果图"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> English </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>繁體中文測試</title>
+      <link href="/hexo-theme-freemind-blog/2013/12/25/traditional-chinese-test/"/>
+      <url>/hexo-theme-freemind-blog/2013/12/25/traditional-chinese-test/</url>
+      <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p><p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p><p>舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。</p><p>菩提薩埵(<code>duǒ</code>)，依般若波羅蜜多故，心無罣礙(<code>guà ài</code>)。無罣礙，故無有恐怖，遠離顛倒夢想，究竟涅槃。三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。</p><p>故知般若波羅蜜多，是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦，真實不虛。</p><p>故說般若波羅蜜多咒，即說咒曰：</p><blockquote><p>揭諦、揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆訶。</p></blockquote>]]></content>
+      
       <categories>
-        <category>论文与写作</category>
+          
+          <category> Test </category>
+          
       </categories>
-      <tags>
-        <tag>paper</tag>
-        <tag>writing</tag>
-        <tag>matplotlib</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-1.3分类及其性能度量</title>
-    <url>/2023/12/10/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%80%E8%AE%B2_1.3%E5%88%86%E7%B1%BB%E5%8F%8A%E5%85%B6%E6%80%A7%E8%83%BD%E5%BA%A6%E9%87%8F/</url>
-    <content><![CDATA[<ol>
-<li><p><strong>分类</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_a07474aaf95a4819f24e0b58036f4c69.png"></p>
-</blockquote>
-</li>
-<li><p><strong>分类性能度量一准确率</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_d5920e0061e840d0c6d2e3b6c28930bb.png"></p>
-</blockquote>
-</li>
-<li><p><strong>分类性能度量一精确率和召回率</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_2fd47770cf6ffafd10ca2aa1e776b9c0.png"></p>
-</blockquote>
-</li>
-<li><p><strong>分类性能度量一P-R曲线</strong><br>Area有助于弥补P、R的单点值局限性,可以反映全局性能。</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_b0c361bab4592a767d8cf6e3af9cba29.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0ad5ecc833e888ba4f3e65f18a3f02e0.png"></p>
-</blockquote>
-<ol start="5">
-<li><p><strong>分类性能度量一ROC曲线</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_6014e9b5f30bcf26f81109530f38c8cc.png"></p>
-</blockquote>
-</li>
-<li><p><strong>分类性能度量一AUC-ROC曲线</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_3a884a85320ed49c6228cf4adacb4d4d.png"></p>
-</blockquote>
-</li>
-<li><p><strong>分类性能可视化</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_1a33558361f9f2e3643a060fc6b3e78f.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_cf6ea844cd06b73c2b518ba43123d847.png"></p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 繁體 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>简体中文测试</title>
+      <link href="/hexo-theme-freemind-blog/2013/12/25/simplified-chinese-test/"/>
+      <url>/hexo-theme-freemind-blog/2013/12/25/simplified-chinese-test/</url>
+      <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p><p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p><p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p><p>菩提萨埵(<code>duǒ</code>)，依般若波罗蜜多故，心无罣碍(<code>guà ài</code>)。无罣碍，故无有恐怖，远离颠倒梦想，究竟涅盘。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。</p><p>故知般若波罗蜜多，大神咒，是大明咒，是无上咒，是无等等咒，能除一切苦，真实不虚。</p><p>故说般若波罗蜜多咒， 即说咒曰，</p><blockquote><p>揭谛揭谛 波罗揭谛 波罗僧揭谛 菩提萨婆诃</p></blockquote>]]></content>
+      
       <categories>
-        <category>算法与原理</category>
+          
+          <category> Test </category>
+          
       </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-3.1回归相关</title>
-    <url>/2023/12/13/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%89%E8%AE%B2_3.1%E5%9B%9E%E5%BD%92%E7%9B%B8%E5%85%B3/</url>
-    <content><![CDATA[<h1 id="【3-1回归相关】"><a href="#【3-1回归相关】" class="headerlink" title="【3.1回归相关】"></a><center>【3.1回归相关】</center></h1><hr>
-<ol>
-<li><p><strong>什么是回归</strong><br>主要研究X与Y之间的统计分析关系</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_8d83583c4947d7bf210ab86651a2f41a.png"></p>
-</blockquote>
-</li>
-<li><p><strong>回归与分类之间的关系</strong><br>较为基础的概念</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_67bfa612afa2235de738f48ca8fd7791.png"></p>
-</blockquote>
-</li>
-<li><p><strong>线性模型</strong><br>-普通比例关系<br>-逻辑回归</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5d8aa335d9cd8c643889a7573f0ccced.png"></p>
-</blockquote>
-</li>
-<li><p><strong>非线性模型</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5838884caebed4cae2e0a06792c206df.png"></p>
-</blockquote>
-</li>
-<li><p><strong>线性回归</strong><br>主要是最小误差问题，预测结果与真是结果的平方和作为损失函数</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_686efe26d332870bf6c146b5dedbbc7c.png"></p>
-</blockquote>
-</li>
-<li><p><strong>概率解释</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_c13ed9d77648d9c0bf39809e649824b6.png"></p>
-</blockquote>
-</li>
-<li><p><strong>求解参数</strong><br>梯度下降法非常常见</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_e557e9d9429aa8cc083d2eeb7ec2bdfa.png"></p>
-</blockquote>
-</li>
-</ol>
-<hr>
-<ol start="8">
-<li><strong>多源回归与多项式</strong></li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5e9734470d0866585ac5c2bbc266c2d7.png"></p>
-</blockquote>
-<ol start="9">
-<li><p><strong>多源线性回归</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_49d735d1e31d9695096bad3778e1876b.png"><br>拟合程度R<sup>2</sup>的计算<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_5e9b84a8c9a183800f3a36b57c102b99.png"></p>
-</blockquote>
-</li>
-<li><p><strong>多项式回归</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_449b57ddebcf428e930fd1a0042da246.png"><br>常见的二次回归<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_83de33b04df29d637f668f84877ce563.png"><br>-三次及多次回归<br>-容易出现过拟合，且可能指示在训练集上的效果比较好<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_2a91c133675e04f808171be5bc944eb9.png"></p>
-</blockquote>
-</li>
-<li><p><strong>损失函数的正则化-向量范数</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_e9054744bb8cec0f6d8371b531c82528.png"></p>
-</blockquote>
-</li>
-<li><p><strong>线性回归正则化</strong><br>主要目的是为了防范过拟合</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0cde03b0e1f63958144451dbb2de9dfb.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5363fb6419c6fe81588244d787db41e7.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_dc9aeb0e25c6b57b45c51f377ef24548.png"></p>
-</blockquote>
-<h2 id="交叉验证得到最佳超参数"><a href="#交叉验证得到最佳超参数" class="headerlink" title="交叉验证得到最佳超参数&gt;"></a>交叉验证得到最佳超参数<br>&gt;<img src="https://markdown.liuchengtu.com/work/uploads/upload_5f990db1bf56a8f4c78a181315d4157c.png"></h2><ol start="13">
-<li><strong>逻辑回归（非常重要）</strong></li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_783db83495a7193fe76b8c0f4265749f.png"><br>基于特征向量的逻辑回归分类<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_346a6f13bb3b5096c5c3da806d467542.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_11e9f202234d899affd58545b2a290ef.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_89b4e86d82246acde47c0ee8c709a318.png"><br><img src="https://markdown.liuchengtu.com/work/uploads/upload_b85acc44785961bcd8ad8eec1cfe6f0d.png"></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-1.4回归问题及其性能评价</title>
-    <url>/2023/12/10/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%80%E8%AE%B2_1.4%E5%9B%9E%E5%BD%92%E9%97%AE%E9%A2%98%E5%8F%8A%E5%85%B6%E6%80%A7%E8%83%BD%E8%AF%84%E4%BB%B7/</url>
-    <content><![CDATA[<ol>
-<li><p><strong>回归</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_9c9fa13350ca69af350c05da482f7713.png"></p>
-</blockquote>
-</li>
-<li><p><strong>回归性能度量方法</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_bedcde7b232eb7d148e4b856ce784f02.png"></p>
-</blockquote>
-</li>
-<li><p><strong>平均性能度量一平均绝对误差MAE</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0d08a8e1df0204c612cd3689934dad70.png"></p>
-</blockquote>
-</li>
-<li><p><strong>平均性能度量一均方差MSE</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5aa111be88ffed6e58d59ca84c026ac6.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_366477e2192b292e499860054af77fcf.png" alt="示例"></p>
-</blockquote>
-<ol start="5">
-<li><strong>logistic回归损失（二类）</strong><blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_38c9ae1772f0b6a2c284edd21a666014.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_ae0bd9dd1b797b6a861b3b686f96c785.png"></p>
-</blockquote>
-<ol start="6">
-<li><strong>logistic回归损失（多类）</strong><blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_c0817c38496d2b8f1c23532ae943454f.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_19df9ef138289204480ca527e92d6e62.png"></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-1.2数据集及其拆分</title>
-    <url>/2023/12/10/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%80%E8%AE%B2_1.2%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8F%8A%E5%85%B6%E6%8B%86%E5%88%86/</url>
-    <content><![CDATA[<h3 id="一、什么是机器学习"><a href="#一、什么是机器学习" class="headerlink" title="一、什么是机器学习"></a>一、什么是机器学习</h3><p><strong>机器学习的定义</strong>：√机器学(Machine Learning）是对研究问题进行模型假设，利用计算机从训练数据中学习得到模型参数。并最终对数据进行预测和分析的一门学科。</p>
-<ol>
-<li><strong>鸢尾花数据集</strong><blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_a82bd9c829334bd2e0bfb52d93777793.png"></p>
-</blockquote>
-</li>
-</ol>
-<p>类别标签多数是人工标注好地</p>
-<ol start="2">
-<li><p><strong>一般分为训练集和测试集</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_1d90637e3eee31816f2ee251aaaa5fb9.png"><br><img src="https://markdown.liuchengtu.com/work/uploads/upload_712fa84b487440fc2df420e01fb84d88.png"></p>
-</blockquote>
-</li>
-<li><p><strong>一般用sklearn来划分训练集和测试集</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_28540063a8d83b08ef613f161f2721fb.png"></p>
-</blockquote>
-</li>
-</ol>
-<p>交叉验证的方法</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_ab2c23b61424fdaa9616d192ad82c508.png"></p>
-</blockquote>
-<p>分层抽样的方法</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_cefdabafdaef61c25d1ab0dd10caf750.png"></p>
-</blockquote>
-<ol start="2">
-<li><strong>调超参数</strong></li>
-<li>什么是超参数?指在学习过程之前需要设置其值的一些变量，而不是通过训练得到的参数数据。如深度学习中的学习速率等就是超参数。</li>
-<li>什么是网格搜索?假设模型中有2个超参数: A和B。A的可能取值为{a1, a2,a3}, B的可能取值为连续的，如在区间[0-1]。由于B值为连续，通常进行离散化，如变为{0，0.25，0.5,0.75,1.0}</li>
-<li>网格搜索与K折交叉验证结合调整超参数的具体步骤:<br>1.确定评价指标;L<br>2.对于超参数取值的每种组合，在训练集上使用交叉验证的方法求得其K次,评价的性能均值;</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_bb3ed5b7ebdf45091d4e2ca0030b2fc3.png"></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-1.5一致性评价方法</title>
-    <url>/2023/12/10/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%B8%80%E8%AE%B2_1.5%E4%B8%80%E8%87%B4%E6%80%A7%E8%AF%84%E4%BB%B7%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<ol>
-<li><p><strong>一致性评价方法-皮尔森相关系数</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_1f13a756233236fcfdf78b3a0ca4eb20.png"></p>
-</blockquote>
-</li>
-<li><p><strong>一致性评价方法-科恩-卡帕相关系数（主要是两者）</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0e929caa24305cec1ce0addf118aa67a.png"><br>解释一致性结果<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_2f6990abe7db7ffc8672f158e5dfd47c.png"></p>
-</blockquote>
-</li>
-<li><p><strong>一致性评价方法-弗莱斯-卡帕相关系数（主要是多个指标）</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_6f3d9cfdedfe0bbeffe11e2097b9d8ac.png"></p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-2.1特征工程</title>
-    <url>/2023/12/13/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E8%AE%B2_2.1%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="【2-1特征处理】"><a href="#【2-1特征处理】" class="headerlink" title="【2.1特征处理】"></a><center>【2.1特征处理】</center></h1><ol>
-<li><p><strong>特征值的缩放</strong><br>该部分在机器学习中十分常见。</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_6f1e22b3cf926ca709618752e820327d.png"></p>
-</blockquote>
-</li>
-<li><p><strong>特征值的缩放-标准化法</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_2bbb035e710542c9df539466cfd0960e.png"></p>
-</blockquote>
-</li>
-<li><p><strong>特征值的缩放-区间缩放法</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_70988871e8358376c77dc2656823906d.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0a904e52b9da20d45d9f5a49379fc1a2.png"></p>
-</blockquote>
-<ol start="4">
-<li><p><strong>特征值的缩放-区间缩放法</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_71d78e68bfdadf43192940a299990a73.png"></p>
-</blockquote>
-</li>
-<li><p><strong>缺失特征值-均值弥补</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_6fd3cc67d47e7960ec01a900f1b5e6a7.png"></p>
-</blockquote>
-</li>
-<li><p><strong>特征选择</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_f23d0370cc31f7c9c63abb4cac955259.png"><br>除了上述方法还有哪些特征选择方法</p>
-</blockquote>
-</li>
-</ol>
-<p>（1）方差选择法</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_21c9798a3d46baad922f5a5ed3d7cd2f.png"></p>
-</blockquote>
-<p>（2）皮尔森相关系数法</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_317c9ad90db512c139a69d0b41c75638.png"></p>
-</blockquote>
-<p>（3）基于森林的选择</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_c1506a2233ab0acdf3dc221d1cb4f9d3.png"></p>
-</blockquote>
-<p>（4）递归特征消除法<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_d8f0b23e54862fa7f4388bc1ac76e8c6.png"></p>
-<ol start="7">
-<li><strong>特征降维</strong><br>线性判别法<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_18ff3bf152073bb0f14a7a3de6b06361.png"><br>主成分分析法<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_d7c62999d5696d6294757f282afa7a46.png"></p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>matplotlib线型</title>
-    <url>/2023/12/08/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E8%AE%A1%E7%AE%97/matplotlib/matplotlib%E7%BA%BF%E5%9E%8B/</url>
-    <content><![CDATA[<h1 id="线型"><a href="#线型" class="headerlink" title="线型"></a>线型</h1><h2 id="线条类型"><a href="#线条类型" class="headerlink" title="线条类型"></a>线条类型</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">虚线：linestyle = ‘- -’</span><br><span class="line">实线 ：linestyle = ‘-’</span><br><span class="line">横点线：linestyle = ‘- .’</span><br><span class="line">点划线：linestype = ‘:’</span><br></pre></td></tr></table></figure>
-
-<h2 id="线条折点"><a href="#线条折点" class="headerlink" title="线条折点"></a>线条折点</h2><pre><code>&quot;&quot;&quot;
-折点形状汇总表
-&quot;&quot;&quot;
-&#39;s&#39; : 方块状
-&#39;o&#39; : 实心圆
-&#39;^&#39; : 正三角形
-&#39;v&#39; : 反正三角形
-&#39;+&#39; : 加好
-&#39;*&#39; : 星号
-&#39;x&#39; : x号
-&#39;p&#39; : 五角星
-&#39;1&#39; : 三脚架标记
-&#39;2&#39; : 三脚架标记
-</code></pre>
-<h2 id="折点大小"><a href="#折点大小" class="headerlink" title="折点大小"></a>折点大小</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markersize = &quot;20&quot;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="边线颜色"><a href="#边线颜色" class="headerlink" title="边线颜色"></a>边线颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markeredgecolor = &quot;blue&quot;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="边线宽度"><a href="#边线宽度" class="headerlink" title="边线宽度"></a>边线宽度</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">markeredgewidth = 5</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>模型与计算</category>
-      </categories>
-      <tags>
-        <tag>paper</tag>
-        <tag>writing</tag>
-        <tag>matplotlib</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习基础-4.1信息熵及梯度计算</title>
-    <url>/2023/12/13/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/%E7%AC%AC%E5%9B%9B%E8%AE%B2_4.1%E4%BF%A1%E6%81%AF%E7%86%B5%E5%8F%8A%E6%A2%AF%E5%BA%A6%E8%AE%A1%E7%AE%97/</url>
-    <content><![CDATA[<h1 id="【4-1信息熵及梯度计算】"><a href="#【4-1信息熵及梯度计算】" class="headerlink" title="【4.1信息熵及梯度计算】"></a><center>【4.1信息熵及梯度计算】</center></h1><hr>
-<ol>
-<li><p><strong>信息熵的概念</strong></p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_023c36408045b860e628ade03970c79f.png"><br>该指标在论文中经常使用<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_1078aedcfd129b7b3a954992f4fc10bf.png"><br>交叉熵要如何应用？（查文献-2023-12-13）<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_87d384e553327305b089a625fa016ac4.png"><br>相对熵（KL散度）<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_1606effc0873e19fec4e47086a146409.png"><br>相对熵应用举例<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_fab49222b67734e79485f2f83fbfa0b1.png"><br>非负对称性<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_9d441cb9cd7a92710780e138ba23f02f.png"><br>改进成JS散度<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_6b34d46b4a3c3916b74d06880e385e6c.png"><br>联合熵<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_a5510a91619045f8e97089369528111f.png"><br>条件熵<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_62e78bf023f28ab0c24d81e0ae638c9f.png"><br>互信息<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_ef60050337086e393391e23355caab05.png"><br><img src="https://markdown.liuchengtu.com/work/uploads/upload_c516dfbc8f4fe849eded198184645bf5.png"></p>
-</blockquote>
-</li>
-<li><p><strong>反向传播中的梯度（非常重要）</strong></p>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_d41346cf9719a41511b1dd9ab2cec95d.png"></p>
-</blockquote>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_844a26a2205a2c05bc9a98177742bb88.png"></p>
-</blockquote>
-<p>sigmoid的重要之处</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_25f79e9c1db541aa2c47017f53537d56.png"></p>
-</blockquote>
-<ol start="3">
-<li><strong>感知机</strong><br>输入空间到输出空间的函数称之为感知机<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_5cd58037de13ae9555ef2dc7cf18301c.png"></p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_0d30fbeb11927149c3f9358e3fece90b.png"></p>
-</blockquote>
-<p>优化参数的重要性</p>
-<blockquote>
-<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_1f0fbfd98d36e17147ab4fba52ae085a.png"></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>算法与原理</category>
-      </categories>
-      <tags>
-        <tag>algorithm</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>matplotlib配色</title>
-    <url>/2023/12/08/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E8%AE%A1%E7%AE%97/matplotlib/matplotlib%E9%85%8D%E8%89%B2/</url>
-    <content><![CDATA[<h1 id="折线图配色"><a href="#折线图配色" class="headerlink" title="折线图配色"></a>折线图配色</h1><h2 id="配色代码"><a href="#配色代码" class="headerlink" title="配色代码"></a>配色代码</h2><p><img src="https://pic3.zhimg.com/v2-65cc7e250d09dc8adff93650d9523e22_r.jpg" alt="常见配色代码" title="matplotlib常见颜色代码"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">plt.bar(x, y, color=&#x27;r&#x27;)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h2 id="16进制RGB"><a href="#16进制RGB" class="headerlink" title="16进制RGB"></a>16进制RGB</h2><p>有一些场景对颜色有着严格的要求，可能需要<strong>精确地用RGB值</strong>来表示。上述函数中的color参数可以直接输入<strong>十六进制</strong>的RGB值，前两个数表示Red分量，中间两个数表示Green分量，最后两个数表示Blue分量。下面展示一个使用**[十六进制数]**表示颜色的例子，代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import matplotlib.pyplot as plt </span><br><span class="line">import numpy as np </span><br><span class="line">x = np.array([0, 1, 2, 3, 4]) </span><br><span class="line">y = np.array([5, 4, 3, 2, 1]) </span><br><span class="line"># [grey, darkblue, firebrick, lightgreen, hotpink] </span><br><span class="line">plt.bar(x, y, color=[&#x27;#808080&#x27;, &#x27;#00008B&#x27;, &#x27;#B22222&#x27;, &#x27;#90EE90&#x27;, &#x27;#FF69B4&#x27;])</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p><img src="https://pic2.zhimg.com/v2-3e0925149af53835ad47e98cad9c56a1_b.jpg" alt="16进制配色" title="效果图"></p>
-<h2 id="从渐变色体系中提取颜色"><a href="#从渐变色体系中提取颜色" class="headerlink" title="从渐变色体系中提取颜色"></a>从渐变色体系中提取颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import matplotlib.pyplot as plt </span><br><span class="line">from matplotlib import cm </span><br><span class="line">import numpy as np </span><br><span class="line">x = np.array([0, 1, 2, 3, 4]) </span><br><span class="line">y = np.array([5, 4, 3, 2, 1]) </span><br><span class="line">my_colors = cm.BuGn(np.arange(x.shape[0]) / x.shape[0]) plt.bar(x, y, color=my_colors) plt.show()</span><br></pre></td></tr></table></figure>
-<p>渐变色查询网站如下</p>
-<iframe width="100%" height="500" src="https://matplotlib.org/stable/users/explain/colors/colormaps.html" frameborder="0"></iframe>
-
-
-<p><img src="https://pic2.zhimg.com/v2-da9615a131269d6035e8c46bff784619_b.jpg" alt="渐变色提取" title="效果图"></p>
-]]></content>
-      <categories>
-        <category>模型与计算</category>
-      </categories>
-      <tags>
-        <tag>paper</tag>
-        <tag>writing</tag>
-        <tag>matplotlib</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Agenda</title>
-    <url>/2023/01/03/%E8%AE%B0%E5%BD%95%E4%B8%8E%E7%94%9F%E6%B4%BB/Agenda/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="b395289de36a128387b08712f609d5cc45783d6141cf5bc73476a8051d302050">b926c11326fbb5e8a48955f4928387b1790a8b5215763c67a52cef439a825b9275be57b7744b49ec4861af6e102817cd5a4f3f6c14e3c56d65f9a89e8842659613c4b52349eeb688c497c4ee1ee56a55b3d4f80db094bb5dc979c942c09f50736148b34f148083947dc33de5db18ce2702f33f066244ba7b330f608bb5387ea20dd7151872cda3fd000e000ef67e4510443a0e1f6a5a580ab8ff2e356a57f44acbf4a3ea38ff3315b58342faf4591c2a67025c8bbcc29f2aeea31e46fbe5acc69ca29c6fd8a3683ea057fcc036124a30a53e8016e4c5cda81e2920eaab335190c57a86e64b63906d452394307fda3882dcf50e68fbbbc45bdd0f91173ebbc3267b9838aed4bdd05eaf80925d6b91b85054cb0657a002a9f55391e7a07d613119fe9b8b25bbfd8d6cbaa2b0e461a39b99ed783693dadea66c353ecf5786069e00b32b655451570422b8178e90c5839cb842969cc7b3adb2619b40f97694d0980c0ca855b686b04113a36a453d4f50f16f96ee7ace9c227f9a9abedb0b668c4170ce5261229ae13c6347d259def3019568588d485334922bc2316c903255ddfd686639b2933638cb2f720e8fbf0dcf69eb0c8fa54359cc6b37a8925602b2d34de9a73a1682301e7d92a1738931aaa8f85178df11295dd9c7f4f0deb86222e63f61c8e61a7cdf786b2c63691a095cc4c88df4d19cb865da3f87f9aac6bf38e7d52862fc6aff5e574d8d42b21426ed1f2e6b8132b8f202403a3edf2020b728e229a4271ce0069590ee6794f21597f63ae947d017578da60b959af4cecc16b51bc76b2773524e95084e32a55111c00f595fd7b3881b95842c0eb36efc2a064a6d86c67b542d7bae30f2e27e50dd84932ebc95272f37be2fc3b0c083e9003dfc0e72e47ac31ad39b9f2c7e61eae162fd2698c701499b5027ea67d8a88b78af12a9064faf50f000aa775fb2474b1015d90a1d87ad6ff26dbefeb8371eb25e7a51f7161b9776883546bb95332fe0785d472bc19367f7693315d5909d9eba4db972ae046d8f3748d24e96e9c5e8d29eb37c862edf2a279204d06044a71dce9c58e8c6a2a06a8a19ab032b5180fbd3587a2a4970a687b2d665e896669a7daaefb3c5c0c930f9587e3a397e51532e937e1ba065fc27d83426a3f57f5dc9a4a4b48cd9fe692b6cf57604c71445af76c42fd4e07ee3f89949c8c044ae3f4121aad5c06a58d7f87761e78e1a9d9de743282214cdaf324d34210a5beda5d9595783a7d5b804abf7c6acd40f37f68e0d9ba8bbd64d58a08ba34eb376675582f82a6880f4b8819b5d0ca0daaf04eb48c4cd0f4ea7a8438964b0bcb674087c424be8c73bf5483d485b9119812222747eaf7e80455d3fa6e9596832acd4ea24b67df101dbc6b1028f3573bd3f4f420e4087250ed9698f7e0470d3702468c7e5d085af0c281b6d6513087c508b72456a922769959091dbb42fed657a29bed66b4c1265a19fef26ce1b3d56e77d10ee069c890ef209f1ab8bec7fc1768444b18d1138965c7042c763e28be17c3a2291defea0ef4a0365baf3102d38ffb0c390cd3b118c35ed9f42d5d766f4d48e8f346423389033533fecb464b4768af21beef7901b3d0f3839986bc34c0d76827af1da9036db173cf95284c5f87f7505fadfa57db1c277307f60255488dc5a56b46a310354b2ba5bcb3a8ec2e76af586aca48d6e011d310364a5beadebbfb9df197e428febcf84e6f62fc76af9d7d56621a18f6ca5a1714f2634e70d343551a30e92a6fbbaf87df226823a0833448dede2fcf2ab4d32b7c8e4807d567041906fe1e0f6e8d35d5cde497f0d307cc6f39ffa1f95e3bc99863f109c965a7342f50d688cf95683dc5f4e7c886d58183779a02b36fa49f0008d3f07893e4e80c21ffbab0f188b4daf8146d7be440ff0455bd2c17e4003d6426a33d3415dd3f16141b849ba66f4eb4c7b66a10b146a0f3d628486274e235d2964e263c1ce5e044a360074bbd24ca40b6cc90cf4649aabdb15dd5f3d693e932aad3bf8208e361c00f6912014e2b7e5c801f1b335a6a6251f4af2232457bb365e05be6afafc7cdbd45f93018b62eb5884b7a1b5f7d0ff9d5ae97e391ef9b8d4c48c70f22bb9bcfc8c73515707267c8666a3e2dfcaabbf50f891e6c26d78e408e21d438a89ab2a3d25c8cb584cae7b4e60060609d198ff3ef8fb8d15f8ade6a1410952f962c6c29409f934e701ac32b6b6213926165dd4361177b2a675db74987bbe7bf6b4a78b8ecd63b7a97c73f9a1c834ecd98523093c67a4336843203c5758f74683105f71bc06c6965a0527f38aa4eb8d8214bbf158b4734153bbd66c003da13ddb01aae8bc9feff64d7a59485b2aaef0eee40237d1c3f41d61be59b0534f2ca3906484a615a3ff528976f2eac8fa939d0273f57ebb68b3174a0e5e4ab9aaecd2b8bdfd52f34cf1925a3291aed3802dcdd904863a1a92c64566a222c8c5aea762423b087682c50fc4dc6cf0c8884f0bb63c6e2640724e69d44c4b82457ef633dba78eab925b950b917c1a7e44a9d67f24db138371ec3a3d697bccba24ad8f477bee647bdf7aff052a73fa6603d4d7bc56689bd1da7d61e2178253b867651203b2326938ab67fbfbde816214a1e9ee16bce99ecae75be1b8743bf90843deaaa5d8ab463da80cbf0033968a2dbdd603b1d4850bd3ea094cade3cf4ed98f250c65f1f37082993aea56f2df55a1f2877436bdcb53f0b6424d742b0cc4822ef11185a23ad190bdc0aacf5bca82cc0ea4b8c0191f7a140056ecf27c2bf80d5c457c0120cac6439905ef09e1d9868948a7c367c1e88b2210ed2c2373cf34e3cc163f9ad3f075c3cfff3665657bba0e06f58cd5a1fd3355fad0adcc8d4826da72cc04d2cbde1165e37cc392bc47af00cf579c3d5fa2e0287f5375935ccaa90f1d77b40b6ee09088a759bced05bd7004cc4d1a56110a83f331f92c9d5b0b5bfd3e444c77956100a108fdf2dfaf213f725a6d968f1463c1b0d2f26036b504a4ef7a598d42955fff6c97d33a6502c366b4e58d198c9cb5cc579bb54f4fb8a67a217c7f9386ca82cb54a2b0200d26ba1e922404334f8e828b5d8ad3720c6db68a1706aa9ff68d1669f92c4383c50ee2de68d32fbea06275406df9e80f0a5e209e7ac5033f1e914b0e97ae1e5236409752778ddebb016672a78cc000bd07f7bfbce88f44846e69817159fc21fcbe81c2412756f18687d75d0969668c915116eb0ec6cd2802d3f150788ddd8ecbdd47dc8f648868044d5183d87f80ffdaf155f801decdd901709cceb2f15862c1ce195535148a5ab2dd5d9fe24a453288c46e227991f82048f37504c2e97aa140d645ce7c11319977c3e83a6b3e8a4f1eb512e72cd3c9a7540b86fb9d59a7c4f573d92d6c1310986b07b706a00009376864a03f2043ce2518aca7caf4375a86948836e9e99f9360ef651a2c7bb2ccc2f449ed7083228d867697df8cd6177938a0a20a284f9f62dc0df6cd240337963a7c72910e55ccf4b316c1b0c0c645b26be9ec79a9a64d04ce65a1d568797d840802b9320a77b797e7e1e8fc0295ee8fd994c7f92dfd65dfa480c1c7731705a8c6db28ed3b1a72f89524143b650c3e3a7accc4b045a8239a43b88f51bfbbc46b6d088888744267548d58d0a4ba15115ee8ee3da50eb3e50a6747cc499ab16254d7f721bb1da5095c2406fcaabd861c18c297b784d87484c13508e8031e94d96a29b04938fa3b1e52cd2f36924594790d86219645b27eed98bb0598f40acd41c5d369fd0e425849b61ebcc8aa08a5e46fb3f293b9f06b955199b32e024da2f2517300e0d252a312bad98a15c01e7dd63a7a8cc53e9f60d2af44f3f88795fd55b55f0f5bc699e7e49c7d68e03870c380799399341631ec4c14d2311819500e50706dd4274c9be0504a6a23351329e914d730342cc273e2f366fe68f6e79ded57afe4530109c714e8af9ed9fbacc996c0e56f072f2cba67b7a491edcf87793dce4a2006e5572d1e1fcfe1281256a223bb6f9c5c2d47999af5d68dee2bcc4ccebbaab7bdfa601474f2beeaf2824375d44e26ebe971be9f49b2fb8fe849fd6517671469d8c8cbe52351c12995fceb53c3d069d6f90ae98d1d372a532ac9d35f2b33a9288a2c78404eb07f9d744ba945bdabeae65dbeacfcf7193dd598af43138343b44c62db86105770b628fa870a6ef31ec48d37faac4f4bd5f9345e861bb8512a33941f12af04066ed72bf2df32bd210a5918a4462fd98eb1dbc8aaba072d2a465b365bc33e408433dbe40ad010c8fa626797de200204b952eaae3c62abc1d63b104ecc66ea0bfcf0e325b3964d6643b759e4084db70720106bc076726f97328a0a6e18fbd6bf628e7b934f78c01872dd4a4abb356dda163779e18c68581e1a0e6e9e73a7973a13524a69464e2ea130477c4bebda7b5f37264b8030872f08f5338d230a1c9aa63d0f7a399f9820487cc177cc44a8ead8110ed95df7f3c10f79f0055fa877de5d27754db08e8cd1662f18329e2e58390887decc78855a1fe8bad42019af7320f0be8fbee16fbea366e9189cb5003ddb5217ab9d39eaa399412f3b617f4241a173ba0329f705d18f841c104d9f9658205e071be2897bcb3d70914ba6702d88582b45cfc39c82a507a9ba3c59fc5d26ce81c60ce13fdc887b67747f52eb91a4cf27eeae61588fa09a0812c01186d1a08a9f2ad6e9ad162b1251bf938a2725905fd3d97164cd2e0d08a1a7d9d170bec1905a8c9ca5ae3ac0a044d8e55cd1e35486c5c1de49fcc6242b330ffdfba213e3ed1d4a5388ee119fd7c3e328525c802ebc1e1da8a256f4953f2b95312ff07d62134c75824579088d56582d55390b9f80faac730360f5c5612ae6e0481e7cfd7916cd0e322cfad41201b31fe9acdb147af0623be6641c3406bea5567db8e17bfbd55292540ebdb3f61024795a104c8a88509cb8326df952135bf26fc6d908fc554afd064f33da0e89b31e5a208635bc277d5a35ae7f8b654d0c84be02b36fe7a26448d6c5fa9cb7373c92cbbcdfc3fe09324cd084642e7acc71f1c8cef9d98286d6a5b3e9ca185fc070735cee69b94313e7f0edae40d458ead7a36b8e0a48f8402f12ee1e30fe473500a1c8c8f9d9fde588aac075a08b20644e5056f442eb41375fafc3e5a3de0eeea9c5c30cba55bc80b38b7b360b0bdeb79e645d30fd94652d13540deb4a0961ffd38ec20380e116f8b4898b4eada2edf3b291fa4d5e76b8302ffe7053cfa2366678da5fa4cad4b5c3ce98c82e1d7fe749ce8fe5a87b7888f0f97cf0a75fb5eeca36df4d6c144104b38bc4a2820c65a0e746833d192981ad3bcb9f7edff916248235fc0a9ebd50fcf96b21bec59a6911e10b217de1aea5d237e0884111aa1c1cf527945b1f14527ec4ed4c156ac5d2056b1c7dfed89281972602eede19c745b39ba809534f33a06d243f59a24999709e837c6fc1a34f0209b583c09b92452022cc75b406177a734c32cd0163b4e5a2d85209c2ef88275d1ed43c5cdf865ca0dd042cd169b214bee902b9a105845041f14cd434f5111ae5a72efe84e6967ac56c6594e62f430ed5fdccb8c42a6f19df5e85c32708291d0685b824c0f29e78acdf8e6718b1dee7c29f9f01e763aa73dcb49862e664057ad738c74df1dfa3bb997ae6e3af2d03fedd3a4d656cc1bfb2c30a57a92a185bb82c17a0b57f3e65af7f518afbcb1a3d676e61515cb204153d13a4682f3b6d0c16e53a9ada13b05b71ab45a4da4736ad0b2faef1f76297a9efc9cbf8f187fd2a62a5ed6a09f986c56edb8f3774fe9649d58fe4fc96551bed6c06b05311d6f53de25de70f7258dfa0d243c5eb051f221fe30b4678adbc313cb426382a7fd57a039b6d59fcc2dc5f9db731688e681a33e041430b8029bb012ff27afd95ea4df2067ced674ffb2f4e23b7dd05e30969207691dfdd100191e67683393770c96e22d2cf76a0a7952f8db5199f5e340f4e1d896317a91462248fad8756b35a0a99173886c5637343cc15d96f9f16f858690a371e9d0f19cbc7f3c337118401290e3d8e6b39d657a964ad56dbee246186baeb03a15ffe7ebf823c439f967519ad47f5f3faf85c913bc712d3cfc5e0bb28cb5411809e2e60482d60fc6d69c0d566afa9ccd6fc10a294f2008008cf93f4208ea5e54e907b8a3ce17c6e640c73c92cea9730a6e9aa0438616bc1fb6ef66db7bfb6e58a1acfa3e8cd7a121132df82ac5edce2d051c5bad79e4dde7f6f8982fff9ae1081abd9889a303494c886afeea701efe1047c01f67d86ba43a70c0c888525a86d2e7ea8d7caf45eaefea1907cb4c3258db7d3b65faf0ea2b2c3fbbdc82a7a8b946795187b87a42056e77182d904558967405eedf91b097518e2700fb50edd28b6485185afa855daf2aafda40bd92abd3c8759ddd4b4fd119052ca22bb691823b9b2c4d2cca12c04d53acecda2db82d82d3c3f4803b6ac94c60cca496a650dcaf99372c9d306a487a77757ebbebbd83762d5af8320b95081ce950978b35a342ee50638c7b67a12571fc0e5d22943d2bec38f8df4f718705dc3b3ed74350f05efceb910648ebf59e52074eb6c32726347e3810606c1ea08845e3ca16ff67584b24e352c6c7d1e5f920a54fa18a458e44b0a3bf7c6483690ef04426ee31c1eab846e501719535369f3830b27b4cceceffa3eaa3ee626a200413d89106b7eff560e34cbd2955574159c010766eb8ef6e93e3bd916a5fff5b79318f49a5e7173aaef22b253c779d55654959da9e6b05bea4278804b9cde2986d7ec345527f7a9e7dac5fed0a14e985997f3ac69a58d87a8eaa3fe55f91723f23d07c56b0c57f7632a9c9bccd16b49917a501ccf6acd63758057ad6034645f57afb9d298656a49eb877b879ff4e36f269c1e85d0d457f8caba2a7c7fd9cdbce8a4268fc4714563d85c9ba02a245e4a5212f738ed0a8e533c06295c40869643fb80273a506ee31cdcf835cf50ad71d39ec372202b4f1675416e6697664dc59c69c070e19842c25e34ae30d9b5d7782939093e8b6d46ad8b17f31a1be30983eea276edd9606137e002f9a74501870dd1803444544a92f3d2e4114af1dd777a8f05a0ef95cfad4c40ec9d6b067def479063b9bc3f0c633a66a83e6b4ed62fa61409e9b1af37f3cdc1527472269640b081a32a264900b1691905af42ee5a80a117b2af64783c6f58df6d509a274330f3d35ac6cc0d2246bfd95f784efac49ffa4fdaa4aed8b443f586c42a242fcc33856beb0b4071c205ed7a86e7aafd0c4f7189a1dfee395f640e994c2742ac81380a2dae5acae25f5f459d4a698d6fbae7f4595e8bc32bed1073d947228d5e309460432e27f7b1ebfbd217f7569efb133cfed6add50aa813a4367192bc69e106d490b940a40b22f4a748d94dd855e37b9c63d227fc77bad6931c73691683da8f42f46d285a624e137aac43783e715e4f2c3a5ef51356fe270db43567633c98345eca221e7ed694413e64dbd374e3fb28b4e11c0c21967155a68021889e7a6b038db2a832411eaf120bf1495760e39b480448006f3b5f199c0802e335b3290e0e838e9cc3f8ba3b008d1a401a641408b9842f69ded34139b6718e66b2f0381b0b1fb977682a9ae132bd74e934b94111b4a4c007dc4ced55a96c042260e9937f764e52ca5cba225668974611673ff3168fca902e84a2d7b2ef2e3f9ac76533078f4ef6f2cae704c6c3fcf02d225c9a36b40a656bb15a6864b7d9a9c60b58906224e09db2a5a9f801c2949e05c20584f806a43330cccd0d83546151b98128d4926eff6bb71c5183b0af0058a9366f22c3d7bf0894ec25c33b38143ad561d5f7e79a3d4d9b5457f6381a9dec38c80de9d56b13d3df76a99363ef7992c9be0821b4b7c3c4041a982738ba86d4ced29a70346d26a1c31308e3f05dc5ac4ceef650e83b61b80cf4183e4c2f0bdeadad7ed64cc5e190270488474ae012ffafb1685bbdfe29d360bbcdcab9928e0e66901956cd33db5f1ae8d7176c473ef40d10f2aae12e3991d545ca79d25fa9a378ede91c4e2dfc6605f39ec80cf8689ac5d8857a2aca51853cd1b0bc47e5de5399242ff0c881e4d38a8eb1051ff7d987ce529f19f189897f97e1edd94f55b97f02fda6beb842d918b079b406c779316fc0a6958f90b77aa02d2a971c8eaac2537e4e4fa374e4252fe06bac6153a6b7903729903000e60d680771f813a29a204772c188169e25bdfff45df4ead5352c69596441bc7b82dcfa579dbb8dd5c6bdfdeb0704205760366dda26c42ddb4eb831210fb53d85f1363bdc10036949b58273b1fce54a5341a93b8808207812182c02f5d071d9b73118f330832d4b04c342fdd6ffa457b4894ffa01a792817dfb0df1ef538b5d01a35ad8913bf7a4525da70f0fed7de262a0972e40f217c76f984daa92a4b20d57c7bc0fca3495f733b04560e457fe60bdde3a78fb91785719180fd7f462b715ed0aabfaa7cb32427c27ac63dd6974492d1f9ac9204c6ca0959b0e991078c4774846867be5e33aa9c29587ed586fae7cf050bec51995b792c30c7726079c4aeb811b08f70aedfb2fcdf9694eded3a35e16ad8ffc75ebf7d32135c773ade68ca19cce982d818359cb8203b5e514c080a68af4cd7ffc789ad4981c82496785b919869e2bf044d25d422de730edda1bde8d8d234d314c8eb5d500e9964aa1ae347a2a754a3cff6c85c0a32d446b60bed94490cc8cedca0ed1bfce09544047255600fac1638bd172e33ec42b0a623fe8383708affa34ab914bc5496c043e885b01b83034fa2a66bb196065c82c6895cd809314d45c87b9ca4c5a8765cf2eb75524edecbf74d45190cedc3f8b3e3d235df156b802a318bea820e8ff4b909e285a7cbff3d2db38e3dc0db82c7b9924d6f3817e5bae42a4e91a93a6c5029bfd5dacfe306866a777ab846a10813902a7efdced5acce16c42d6363960c395e5303627a578bcaff0d60c6305667cc192e560697ed82e9bec9937f0de9f642c3bf2baed76a34b294453d6bc3e8f7a2d97cebed271b5407af5ed4f932e4d5b71f28554bb1d207bb6d6a0634fc1ac56ddcfe6af569c04361c7552e568c7812a9342694cc1cf2be31755640d6f1fa229768ac64e401aaf3ed0f2c8157534672e4d7ff2fe04fe69868ba64e0780d9f7bd4d91c5728c4b1ed3081927847ec55b71d553b7527e49556b195885f16a6aad234a63768f26e055347e01f76bf1919483939ff49748710d1523a989a5670fe17a5888283c86f5d4032f167e275cfeb3a5ed461b850145d7f7e67015c30e82cd96b97a97d3b9f86d7646a9d3cc363a31c43a856d03f9c91b5b254ce86a26f0659a120df64a8d71de995a50220ef48973698a62d5035987808c0bb944c80a0641ae04fc387cd5573fc232c755329330a73e715aeb73f4cb7a0ff0d6afe0cba70007fae494e5d2aabbb54dd555c988fe5e92b8a955d0ad2b5a51edc2d56515320ce8d286393d91d7c384d0f7a6edb82497ba6718103b1d9902f1f0e1e7bd90bbbc392e91f5c09601c36d45ab67f145b59eb9cfe1f76b3c54f285594f5c059786abaa7ae135142f351c47d687aa1b321a15d5392bda848565b2ea0fc75734b7412bb7e42083f6f6f5745cb939e41bc0d114b11e8bb442d1c58a9029352ab41ff042f540b97c4489575dd4bf54382924c8788707de00981d4ff526d804e3d2161dccafae78ed7656036a8d7722d801742f705739eca2b0be26f7c158e3ce4dcdeee76682162f93796c00bbf5d483d57c71cb6d3c7246e109b2c8bcdc342da91971091c703a5856341afb628b4c81589a70c960431e74d33baed3c893529f39f147315848fb256c7525ae429fa983a8a8ef3cd6bbb710086e9f0495621b0f9986d3e494d0a9a709f86d31002c11365bb0f0366adce10765f744b93995a63f576d9e9982ae67bf5964239006f11ebbaf027e62ec5f63008282b6fb7c3b44f16fd3e8247d5592b524109620ba2a73f14f0d528b0ab0273eb3be31477a9a6fec911dae7a1641778b157f9063114175655f163be43b1685dd172f3a5d7521a29be56576ff12cf3515502757b9a378687635a78501df17029d10b48350e3157bb125b805587437660d00939de9c2f0e99eece4cb2f79ab7f890371318c4498facce28e97c6a29ef96c484c14b081469df371f73cb85df917c3d280c94789eb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里输入密码捏.</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>记录与生活</category>
-      </categories>
-      <tags>
-        <tag>life</tag>
-        <tag>record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Teleplay</title>
-    <url>/2023/01/06/%E8%AE%B0%E5%BD%95%E4%B8%8E%E7%94%9F%E6%B4%BB/Teleplay/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="4323fb8745ef79cb27cb73a73a0ff3b2dadba63bde8130b6ab7fd8c7aafe820b">b926c11326fbb5e8a48955f4928387b19d1504b93c7486b1a53bee84e798dd9cc570fdc21c284fd56ef621dbfa0d668bd28ba0c9489073652b7f517f070246a9170803e69cd98501c4cbf3f234bdf95df1f9518b2c51017501edefd4c248ab79879b2baffaa6d6ef1d32b276a86512005a6d90c5f1a9c7197f62b44af7eb1e4725959c471c9837bd6dcb25e59c3d1130b03203d0cbda0a42585064b3694b4e22cffdf5bf5909997440aa364f94cce8c9294027c1f2504444ef403c6b925d9e106584e0cafe19aac4b3bef446848680b2aa0ada4da8f023008fbbce8f2ca3b67dbff19eee625ec04dd347e066b862636adc38937c009ca88cfe341b9c65e9cf5c8da55ba6a101dee667f69eb29928b246c532bf9aee634baccaf81b204f765e60f456d58219ab862bf24bc5953b787808ea6b6240ae845ee842ab45e2617131fbe30f3a1d2b3ca97f6513a9513e220f3defb69cc55807b4f8dd5d10e6c279b6a33272f81ec88f4bbdf6ae484968899ceb04bd63ca17a0614701ec3ecd104b64c766a64788d62b87f7b327d9ef1352dcc411d51cae4a67ea5d7dc2e64a55468bfee2fe3cb657830617ca246dad0505683b65c60ffb1782043ff696fa6130046c0db2117d582bf9b4a482f0bb12bd96665f619d27289c30e1c16a24d6ba7ba77a80fdf32c2f28f4b2d4405b01f7d988a25c69a9473c09f7fd3b3e9c5c5cad6c1bc8dbadccc38caca389bbfd84a2ba86e037b6efed2416f99bae1f014f062123bfa8992b2a490cb5da782ac45e8d3f882df0dce2fa1072472fd71e38113a15f1ded195ea83e52311405db387600e15a036e70aabe2cf26c247d9c6a0ef23b0f163d65a9a4b634b00bef819c8521228f0de322555690ce228e3ad8d1f028d0c0dd4fcb02aef2982c8b30cd9d90d6242d4af0baa1e533cd12914068456bdea8e204c9cf5e911606734f7a92b619661f8569306f483cc95c49df3e130253b55a87baff50fa36c7db6be7cd314f57a611006765c4054fb4ebdcc21adb5fb5396fdf815e8f504d7b294b642115563ddfe5cb0966057d4ae38432cf74ef123c610f46b6fca75f87180885d4e19abfc27bc367ab5bd9a17df6b1c0224ce31fe84063856fb361eb9bb984b4b89bbca9c438e618665e52f9b268e2287051e8fdb492e2beb36beb97f842baa686e29133115f9433d5c341537ec29e7c99f7da7bdeb3bc70148bcc8291b37269c0ffd6099794de77059c61ab4595c1788af31ebd04d73daced5f0975d3684a1053e983e3d08abb4659071ea07ad6e9ac8a8332869df32247b7576c437d62571d93033afc8ca1f657588dbc35168382051bf70e3a723156e4446030253283cdc40a3d31e5c7cb21f3cd07a89c3b17985fb32b4973762f3b857543de87bc414a0e2c5432dd0a57c0697fc980775d72308f98e24e56594063fdcc53d4a9c2176263620f85219c4eb582bd938ba7a51c4c7fac8e5f169bf870b09db5f6217cb25933b96e919c71bc187812ced69f2915fa421cc7e87d53ce3ad737d2389c8fcfbd3d2af603cb50f1ce893c2752a0a22d95bc2cc02a9c242fc50953930a260e223577f442dc9e2e0e3727f0971bf9ce336d956407550dc25bff690694bcc1e03c85a55baeb9562b70d718caa7532b31efce551501c2e03c29f03ba36f29346599ff14967dbc4be1a8970300906c4bef990a3acb0f446fd1f6e3936af3823f8690d7682e38a4525fe6fad86775fff0c5fe4790ca7133977a2d7b859115e9a175acbe5dd4ed130d33d068734ec1c574ae7621a27231668ad4297e8c5e5c6016ca207eabafa2f7196d84cc8f9003ba0915c47f919503896b2eacc4b63bb2601262ea164460031ebc33141123c757e524ffe6f0c5893f157df519cb9cef0efb28ed4daf4cc311c512b14c7452db2414feb965a951e100b799ba9e7bfcab718415d82d08095b658324341b5fff5d56703be7344d78bc13fe06203af6a9af9231bbbcc36b2ef06814ce88f13f7a1cddd407b925310952e02337ffdb86fd7adb290dddf78ae15c746e4adb43e2e7fdec56a0bd242890a8d316e0cbd671da9084da812290192f48bb68699a95923adab368d7e34196bf0acf06f5a215a432a6a4f3c7d039ae6a42a6d471f87c473c1e75d4a2a11b21e659f80b54e6abefe8a6ef343383cf8fd9a19260308472778ee090eaf21a713a0086d36c19cf665af7ceeb00e52f67113198cce67a7b862b1db7807668aaf87e5605af8a3065036b636261f9145e63fe1d483fcea47e08f5fa3052851e70a6746f116c717c505cb112b9aff8d869429142bc8f3446f02960c6c9fcc340389cba4695c117a052ecc5fb6c7483e6183272fbe66eee8c0c0578af11f165411cd1933dc8f3077af1d78deb6e7ce2ad3d1964b17bcb15c616754c46e3c7c8dba6c3355316b2e4d0a5201f96b68eb306446a264671d37ab4f0aada24ee66a15555f8e7fa8d89416276342c5be2cb92e27eb136f283b3934206d0ab8eb3b8de44ad808c6121d6cb643e4583f9c90cd12d64b4e07bfdc14f6d11098edbfc558f72706c9c73e67d4634bed993bc78fe9f11dedf86e5d7f2a7f6ac1045ad56c2fd49933cdd28d4b4fcaf3426cb964ce6724b85550a8eb6c2236236ebd7f9df4f2da39985b35ec461a31024ce734222855ff1adc05129c4bf5a2f47bffff113eea03ab8f569b74e85086878fc2b411007b7243e5b79de6c8a1d842b0ed955cdeb6a849150103c2c7a3e0c07ce70b993ebdfcbccfe3bc077490e4e7779a37b464a2efc2ae43ce08092d261e617ce726a167b82520dc1308c0b1f627fd7e6d2bea2d4585c799eb4bfaf330ffe386e13af27a90d49c4bae32936ed89b429b87cb331fdd0491257bd5cb1732fdc2abd4821a747b2f6c5dc6f14b1a7ac958d0b9f2ebcd65f5a80f2f3402f73dbedb04f59375454e5eb49f735475187d578e9634260eed48b4cb053851b14c305ff4fafbe646e8165335e78505ce8c3c335affb09b82b1893c349f153e68b7f0bb63cf9f9e5bbc051af3ced073da22d451d6c9ca19b101ad563fcc73b434d4c6fd9f7e840337fd7ac529717eb86a432e2d6053c52bf8918acbf8eaf4b6ea22cd289eb18c396c9104f5cc7755ab61bcd68c3e65d15c23d2aa50dbfff6ee57417ae2750d6f9ef9d6d3b5c44aedd520e14ca837aa1267bbc7ff59bd21cbbaf18201e6abb9ce5441ad2441469bec15a8b26b6eb45d429d413b5b4f8e9bc6deb1c2d999d1a39506fb474aa962d1fa21ff210e50338209dc0c1d0f7743b026627f2656588b281b8f9e495e18428216578ea945a81b3c164c2873170f47f79de1e9ad8af1732e2805bb715f312a981d89416a0a7858071c914cfe0d59f7543c56c4bc0acc26021926596a80974ecddaafedb2b13dd60fb0b7fdb3bd7dfeba951882f166b2a759ffb7c8fc4c800a48c0cc3469e53905ad2da227949483a70c6ef4ee11b8ae0f02561b20f0c215cd8b201d7097d4102911be43379317fce1ca8428b257e542d9d61e05c6f91799bd836af8e1a078ac65bfaf5d9c85fa84702f66bfc0ac83f7b0e25a1416d68c00dc4314f7a4733474728a95bc84698930ee231988bac9b775f7e41f246a7a4fc03ccfe2ceded6965edf424a585adb510d10273a84fa329e8600c65fc0c6e0dd0aaed8191be394c3a88fb898bf6cbeacb1d4fedb010dc829a49fcf2d644536698babd6db26f844fefd63a7be75efca1bd98c71d50586ee867490b5eb2989e3cfb1a64367c1719dec6fc99d67b4dfe54825098c9c449c5aa859d284acb26d777241079475557419f5962c82c891bb3146d4cf33d465610a879e9cde70c892cb1e8015242492929d61557cd67f2cea2484dd4bb6e6efe19c25acfebf6a5fe0d0469d409e930ac3e8436ebc059b46efc7814a9a37475c4b68295c94f1a7050dae3f024a24f08dc4db8d6173c553e99564a67d18262f71a1430e0fffdbb5978c865427d3d60a3489e642aa857e07a2e45bcecc787bf222f242e86ee7d87ec24b601170262bb1ce6ec70744009b486128268c69a7b198bd99bf80497ca8df012b57bfe3ead6f9c127df35927545f297737896f03f2e9dc038640a89483ae08e37416acb97a747dc700eab8cfd5ea7dac12596057c1035dd6bc6dcb5403a572f8d4dd3854e0a3531056770e57575b4f826f5ad2b2abd13b7a6fefbe879e26a5791b604bf2bff4dc6a5538e1b9d8101e076801a25e15c8f320487917085b8ffe6abe5fab556a2472e5e522a4a9e60a84c28c587620c8542a4bfd9a85440bb6eb831f6e83791b6fb739642a55c381e230b0709015fd55e856655b46c459127e9c062ee572bb85ab2d68f42a4557490c2eb967f4cbaa76f66a9c77bf37b92de3fb25587ed0c938486231b41319798b28660fda7847cdad9040cb599ebf9ea44a97485d288970d21b92ef714177135e688246bbf9668da991b410f290eb9d84971d8505483087899d391c184a8b90377f3f4dccc8ab12bf7dd5b1dd545ac1b9e6d74e86b0d3afc47a8c858e73d799476aa7b250ec2c07f6c8ea80adb1597eb1b668b49dd0910649db68a410cca37190cd48bbcfea40a8caa5a3d922375e89bf7701e8fd4d47ab3f74f1d8411d693dc8b57d50373432069b814dc8d64ee083cc46915cf3dc5c56394c3e29fc299de80baf00da6b6a36466f45327319f7dcb8fcb0694ea6c2df5f412f24a79ed59bca81f4faeb52f262134c0ecdcc8ca22ae1e9e56e3c8e60846a52f3c544261a5cea298a66215956ef42b65907840ef4fb04e9f3b1563512868d5c8e64885d19a153a4cdc482f711eb7b289322275d7645cae36773714bb0314501dd08019b04b351136d46af436ba6aab8851b0094dc8d637d75ef0116816940eb02198b9549f8fb8fb80719f985a2e1c25f857db2d16108698be77eecffd2e9b10e65f023bdf8f75a3611498cfcc4e64facc7366a948562a35ad4bfbee46a3b4f73c6979fdd7b0f00d0bffcc82c4055edfad6ff3cf60dca98985be002c582b0791b84393e0add89c970bfc7d338c296d33ee15a91fe30b6922485b72858beebc6ddf96c77208eafd510a2d2bba5dd8b0fb2437a1a313cf4f9a98c3d28e031eb9243450fa5473f554a8b3e55c0f15fccd29b54fdf62646497d9efe82689dadee06a8407bdd8b10362b0f1db00d233b3c17269cefb424ec2f63c7537a43f980631c4df9107b5c42330a400f429e41505952a3576cf1d26e7977b0e8ae0f694383a8a034016c5811ad77d00e0a97b227fd22af25724f0c9bf9efc65855defa3af2e1fe4e83e0bbd10fc76672bc86bb73589a93e8dd9f2be7bc9e1fdd806679c40fb9db746029059461c53bf8e6ab63adb055ebbc53b5e8712decdd5dd9bbe2bee7f6359d6a253539c83e61203b8ce492f2f3bdc54bc3c05a0f6997da9b2fd427b8ace7c418fe8ca48d05e61e594180ad53dc61052dc4c94dbb34db47b6e1e9730bae84cf5e3792ba0d862463e382ac7fdcb9d9e667e05589af61c95cf84493e8a196fcb062c04ec59219767f248863679eb6d84029a007fba30531f128e7d4a72ab5e0d7627b6111a89a33c44f2f140a32a115ed56de9e881847c09f785812df2ec5d6ec33da61dfcd5cb10246c56bcdc501d20656cec9dd6dfdff5aab3863ef9ade3ad8039e0d88cad1e17a233c7cc8e58f85f5bdcfa97f01424227ee557d7eb278fa1d7bc1c2a7ed9edf234b2509432c9c49f06799198f30d2eaee9e20469687a48339eaf35c62053e579c155dcd3b7c625b99db2d83d40358f6f0d41e779fee45ed6fbcaf59ed07f28fd7b4e0b0d13360f8ac91d64be929603a6492fd7ecf4e5f72e53c793409428b83a7359502322266ade9f4f03ee88c3bf59bfe847dae8f847b5cca7203aa110e0ad840b72214c49c6369609b542c76acaa5eb4985a55083706487156716ac73663638c9c09970a9dfda5a1ecba0aa818cabc1800214b4d677a37a8a2a4c3736f6fc80c7729e68a3f2bd63fdbb579ed20accf650d93a4e219ddaaec166a04e5a876bdc17283da11a0f4e5f975b0a57e5bc2746d073568de3c57b242be129f37dbfb0d8f7a38e12d24da76616d44a5531657cdbc7b9edcea0b1373eff676aeba4ba716c867ac1a803ad14524210d913054faca62ed349cdefa6c4873e59edab7c3251aeff6f0b66e389122a411d1e2e6be0593bf3c22a2216e93e2c7c30d292d052308255c0413de8b231b5b6fdab7f2cac6530de87af837702becba206a3a8d0fafd440a164d27d54cf581298b215f136e61490cde5f198b3e896bf85b37b53b7f40b7359b918c80694af581b26f2a2c20fcc23f2b1b28f197b8ef2d22ac4aef8119b31a214ccce0bf9129b765f30d7962ce6e56c516a4168fedcf89aaf09672c8399992134d6de13435a32e69fcc18d861db0c4dea1ec077ac2b1c5962ee81c1876f8a1c91ed857ce065e376f574d404c97bf00aeee502a1e16d73dd7e1df9c7d31eb24c0cb9a766cd6471938827c82ef148273b51b519e7604b07e9a0f5eb8ce11f64952ca2bb02069edfb3f7742a69caf00d334c4ad86c8863cd2116e91344456bbea2178a4506fc742387b30fbcbec9372bfc2f7cf479b4ad1633c2cd40256fa2b1dd113d87b101a5d42133f757b729c50d38263835422fee2a2f0a8be4286236927b9f61a363baa1d6849a67de98ab79392ba38cbf4bb205d1c94b8b945248601e4e097e6634c0b4b2cdc1cf119614668e630c18ecc53bf239b2b14b37d39dc36b2aeb9ac5234fdb980d0572df48f238fbacb4ed38c3fc47d365e2c15b8752d41a7f02946ce64984a32a88113417a6b8d4d6113b2a775a7fdc45226339c79d81b5e534e4723692e9d788436a38130109cc14657d1eb707afeaae3e717b71f26db6427f7a907ec74397a044aa358f727704e3775fdcdf598e20a9056f3782854f8f5bf1e18ce542a6fa538aca4074da1a30c36f305bf56e0aca74521a959323d1ec599590eb4fd5bb1a1033333825ab18bf7d8356b0fad265a998a9285be1bb12a68146fc60c41c7727ac25430c0684d0a53dff66383708b859af11631fff03e708229f6986471164b3b8ebc4710951af1364bbca115b99b8e227e3535e9dbaf65fd3e767f4e69b162c3c11effd4bc7cef715da766312b448c87b367570a4b2e3def07f4bb7a84d936b41ecfafc00f7a47313db79549d1b3b0a2952461061cc8607fd2e871ee5524c0149a5b79fdf0948b529aab36cdc055b389d869f5b23616880448c2efe008d2797dca79a4bc04f269968309baee03bdd8539c3ca931000280401728bc71982717f7bd7cba7a199a25bef3cbdbeb85d804f1bc045c14e57b169d1494c5127d3ff5016d92a968a1fe1cb3c439749c6dfdd93a8d53c8640b0a9f507aea726b17d8c881fede3373b5585db4449ff72ed470963e1db375687faacef3d0532977e2001add82f1cafa7d8ab7c920314a4f263cbae32c2965ff5b6ba38b9c469a1f6b3e5053dd7eb25331673078d0da0a841c6df3f80f30687b58cec68e9d</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里输入密码捏.</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>记录与生活</category>
-      </categories>
-      <tags>
-        <tag>life</tag>
-        <tag>record</tag>
-        <tag>movies</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 简体 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="/hexo-theme-freemind-blog/404.html"/>
+      <url>/hexo-theme-freemind-blog/404.html</url>
+      <content type="html"><![CDATA[<!DOCTYPE HTML><html>  <head><meta charset="utf-8"><title>404 | hexo-theme-freemind</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta property="og:site_name" content="hexo-theme-freemind"><meta property="og:image" content="undefined"><link href="favicon.png" rel="icon"><link rel="stylesheet" href="/hexo-theme-freemind/css/themes/bootstrap.css" media="screen" type="text/css">  <link rel="stylesheet" href="/hexo-theme-freemind/css/style.css" media="screen" type="text/css">  <script src="/hexo-theme-freemind/js/jquery-2.0.3.min.js"></script>  </head>  <body><nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">  <div class="container"><button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">  <span class="sr-only">Toggle navigation</span>          <span class="icon-bar"></span>          <span class="icon-bar"></span>          <span class="icon-bar"></span></button><a class="navbar-brand" href="/hexo-theme-freemind/">Freemind</a><div class="collapse navbar-collapse nav-menu">  <ul class="nav navbar-nav"><li>  <a href="/hexo-theme-freemind/archives" title="All the articles."><i class="fa fa-archive"></i>Archives  </a></li><li>  <a href="/hexo-theme-freemind/categories" title="All the categories."><i class="fa fa-folder"></i>Categories  </a></li><li>  <a href="/hexo-theme-freemind/tags" title="All the tags."><i class="fa fa-tags"></i>Tags  </a></li><li>  <a href="/hexo-theme-freemind/about" title="About me."><i class="fa fa-user"></i>About  </a></li>  </ul></div>  </div></nav><div class="clearfix"></div>    <div class="container">    <div class="content">    <div class="page-header">  <h1>OMG, failed to find this article! </h1></div><div class="row-fluid page">  <div style="text-align: center"><div class="spell-img">  <img src="/hexo-theme-freemind/images/404.png"></div><input type="text" id="local-search-input" name="q" results="0" placeholder="Don't worry, search articles here!" class="st-search-input st-default-search-input form-control" style="margin-bottom:1em">  </div>  <div id="local-search-result"></div></div>  </div>    </div> <!-- container --><div class="container-narrow">  <footer> <p>  &copy; 2014 Joseph Pan    with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a>.    </p> </footer></div> <!-- container-narrow --><script src="/hexo-theme-freemind/js/bootstrap.min.js"></script><script src="/hexo-theme-freemind/js/search.js"></script> <script type="text/javascript">           var path = "/hexo-theme-freemind/search.xml";     searchFunc(path, 'local-search-input', 'local-search-result');   </script>  </body></html>]]></content>
+    </entry>
+    
+    <entry>
+      <title>About</title>
+      <link href="/hexo-theme-freemind-blog/about/index.html"/>
+      <url>/hexo-theme-freemind-blog/about/index.html</url>
+      <content type="html"><![CDATA[Something about me. ;-)]]></content>
+    </entry>
+    
+    <entry>
+      <title>Categories</title>
+      <link href="/hexo-theme-freemind-blog/categories/index.html"/>
+      <url>/hexo-theme-freemind-blog/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>Tags</title>
+      <link href="/hexo-theme-freemind-blog/tags/index.html"/>
+      <url>/hexo-theme-freemind-blog/tags/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+  
 </search>
