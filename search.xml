@@ -1015,11 +1015,15 @@
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="请重新输入捏." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="cff9133f8810f0e9b6645088be9bca4070b1aa338a9d9d1fb64c181a5d4efeb8">b926c11326fbb5e8a48955f4928387b1f36fbf3d51a20983eb2390eaf998109a3cef2f1aad499663b54ec0e358f802773ace7089650743ce68f1248f8d05702d26affdb559d5da2b86efda884ae7c517f3e0d861d2cf7e5a63613a15098f1e8b104c74c470b87ecf5dca2d52cc48541523ce5043f33191b7935a70aea1c8ba132106354d42395e347e9f29a62d3ce9d4af84e5d13f6625b5b90a1873173729d4a418609903aed80bec7109d8d9f503da8693f7dac2588df1beb5934c7d227285ab3bc7456a4268ddd87affd2880f358d65a4eda021ccba2ef1bd2c8b1ab2b8ed22bc9fcf0200a09f57511cd63277ab1168b086644a23796f63be1b28c76e88e5a54ee3f8a2273190c4480560f1d7c9cfdba6f227c452d675f228993ef56776daf9890a4942457561f7e455e2b47039e4</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里输入密码捏.</span>
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里输入密码捏.</span>
       </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
     </div>
   </div>
 </div>
