@@ -1315,7 +1315,7 @@
   </entry>
   <entry>
     <title>混淆矩阵</title>
-    <url>/2024/04/17/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%BE%93%E5%87%BA/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/</url>
+    <url>/2024/04/17/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E8%BE%93%E5%87%BA/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/</url>
     <content><![CDATA[<h1 id="混淆矩阵"><a href="#混淆矩阵" class="headerlink" title="混淆矩阵"></a>混淆矩阵</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>混淆矩阵（Confusion Matrix），也称为误差矩阵（Error Matrix），是在机器学习、统计学和模式识别中用来评估分类模型性能的工具。它是一个矩阵，用于展示一个分类器在各个分类上的性能表现，将实际类别和预测类别进行比较，从而分析分类模型的准确性、召回率、精确率等指标。</p>
 <p>混淆矩阵的基本结构如下：</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">                    Predicted Positive          Predicted Negative</span><br><span class="line">Actual Positive     True Positive（真正，TP）   False Negative（假负，FN）-漏报</span><br><span class="line">Actual Negative    False Positive（假正，FP）-误报   True Negative（真负，TN）</span><br></pre></td></tr></table></figure>
@@ -1339,6 +1339,89 @@
         <tag>algorithm</tag>
         <tag>python</tag>
         <tag>confusion matrix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>混淆矩阵</title>
+    <url>/2024/04/17/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E8%BF%87%E6%8B%9F%E5%90%88/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[<h1 id="混淆矩阵"><a href="#混淆矩阵" class="headerlink" title="混淆矩阵"></a>混淆矩阵</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>混淆矩阵（Confusion Matrix），也称为误差矩阵（Error Matrix），是在机器学习、统计学和模式识别中用来评估分类模型性能的工具。它是一个矩阵，用于展示一个分类器在各个分类上的性能表现，将实际类别和预测类别进行比较，从而分析分类模型的准确性、召回率、精确率等指标。</p>
+<p>混淆矩阵的基本结构如下：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">                    Predicted Positive          Predicted Negative</span><br><span class="line">Actual Positive     True Positive（真正，TP）   False Negative（假负，FN）-漏报</span><br><span class="line">Actual Negative    False Positive（假正，FP）-误报   True Negative（真负，TN）</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>True Positive（真正，TP）：</strong>预测为正类别且实际也为正类别的样本数量。  </li>
+<li><strong>True Negative（真负，TN）：</strong>预测为负类别且实际也为负类别的样本数量。  </li>
+<li><strong>False Positive（假正，FP）：</strong>预测为正类别但实际为负类别的样本数量，也称为误报。  </li>
+<li><strong>False Negative（假负，FN）：</strong>预测为负类别但实际为正类别的样本数量，也称为漏报。</li>
+</ul>
+<h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>1<strong>准确性（Accuracy）：</strong>表示分类器正确预测的样本数量与总样本数量的比例，计算公式为 (TP + TN) &#x2F; (TP + TN + FP + FN)。<br> <img src="https://markdown.liuchengtu.com/work/uploads/upload_26074c219be98d6a5d57c61256ebd7c5.png"></p>
+<p>2.<strong>精确率（Precision）：</strong>表示分类器正确预测为正类别的样本数量占所有预测为正类别的样本数量的比例，计算公式为 TP &#x2F; (TP + FP)。<br>  <img src="https://markdown.liuchengtu.com/work/uploads/upload_d96c31a5c7368207fab561588fcea377.png"></p>
+<p>3.<strong>召回率（Recall）：</strong>表示分类器正确预测为正类别的样本数量占所有实际为正类别的样本数量的比例，计算公式为 TP &#x2F; (TP + FN)。<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_f05cb6c1e7b8f176783938327908a010.png"></p>
+<p>4.**F1-score<br>精确率和召回率互相影响，理想状态下肯定追求两个都高，但是实际情况是两者相互“制约”：追求精确率高，则召回率就低；追求召回率高，则通常会影响精确率。我们当然希望预测的结果精确率越高越好，召回率越高越好， 但事实上这两者在某些情况下是矛盾的。这样就需要综合考虑它们，最常见的方法就是F-score。 也可以绘制出P-R曲线图，观察它们的分布情况。<br>F1值为算数平均数除以几何平均数，且越大越好，将Precision和Recall的上述公式带入会发现，当F1值小时，True Positive相对增加，而false相对减少，即Precision和Recall都相对增加，即F1对Precision和Recall都进行了加权。<br><img src="https://markdown.liuchengtu.com/work/uploads/upload_7d9528c50059ee03e669124bce17244c.png"></p>
+<p>一般来说准确率和召回率呈负相关，一个高，一个就低，如果两个都低，一定是有问题的。 一般来说，精确度和召回率之间是矛盾的，这里引入F1-Score作为综合指标，就是为了平衡准确率和召回率的影响，较为全面地评价一个分类器。F1是精确率和召回率的调和平均。F1-score越大说明模型质量更高。<br>————————————————</p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://markdown.liuchengtu.com/work/uploads/upload_472297ce2241d8757646393f46fdb684.png"></p>
+]]></content>
+      <categories>
+        <category>算法与原理</category>
+      </categories>
+      <tags>
+        <tag>algorithm</tag>
+        <tag>python</tag>
+        <tag>confusion matrix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>判断是否过拟合</title>
+    <url>/2024/04/21/%E7%AE%97%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E8%BF%87%E6%8B%9F%E5%90%88/%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E8%BF%87%E6%8B%9F%E5%90%88/</url>
+    <content><![CDATA[<h1 id="训练过拟合"><a href="#训练过拟合" class="headerlink" title="训练过拟合"></a><font class="text-color-5" color="#3f51b5"><strong>训练过拟合</strong></font></h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ol>
+<li><p>所谓过拟合(overfitting)，指的是模型在<strong>训练集上表现的很好</strong>，但是在<strong>交叉验证集合测试集上表现一般</strong>，也就是说模型对未知样本的预测表现一般，泛化（generalization）能力较差。</p>
+</li>
+<li><p>过拟合是指模型在训练数据上表现很好，但在未见过的测试数据上表现较差的情况。过拟合发生的原因是模型过于复杂，能够记住训练数据的细节和噪声，而不是学习数据的通用模式，导致模型过度记忆了训练数据的噪声和细节，而忽略了数据的整体趋势和泛化能力。</p>
+</li>
+<li><p>过拟合的特征有模型在训练数据上的准确度高，在测试数据上的准确度较低，模型的参数数量过多。</p>
+</li>
+</ol>
+<h2 id="克服过拟合的方法"><a href="#克服过拟合的方法" class="headerlink" title="克服过拟合的方法"></a>克服过拟合的方法</h2><ol>
+<li>增加样本数量：增加数据量可以降低模型对训练集数据的依赖程度，从而减少过拟合的风险。 </li>
+<li>数据增强：通过随机旋转、裁剪、平移、缩放等方式，生成更多、更丰富的数据，以扩大训练集的规模。 </li>
+<li>简化模型：简化模型结构，减少模型参数的数量，以降低模型的复杂度。 </li>
+<li>正则化：L1、L2正则化等方法可以对模型参数进行限制，避免过度拟合。 </li>
+<li>Dropout: Dropout是指在神经网络中随机选择一些节点，在训练时将其输出置为0，以减少节点之间的依赖关系，从而避免过拟合。 </li>
+<li>交叉验证：交叉验证可以有效评估模型的泛化性能，以检测和防止过拟合。 </li>
+<li>Early stopping（早停止）：通过监控模型在验证集上的表现，在模型开始出现过拟合之前停止训练，以避免模型过度拟合。 </li>
+<li>数据预处理：对数据进行标准化、归一化等预处理操作，可以提高模型的稳定性和泛化能力。 </li>
+<li>特征选择：通过特征选择方法，去除冗余特征和噪声特征，以提高模型的泛化能力。 </li>
+<li>集成学习：将多个模型组合起来，通过投票、平均等方式得到最终的预测结果，可以有效降低模型的方差，提高模型的泛化能力。</li>
+</ol>
+<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><p><img src="https://markdown.liuchengtu.com/work/uploads/upload_e2949019789d96e2373315b8823335df.png"><br>这张图片显示了两组折线图，分别是损失值（loss）和准确度（accuracy）随着训练次数（通常称为“epoch”）的变化情况。两组数据代表训练集（train）和测试集（test）。以下是从图中可得到的信息及结论：</p>
+<ul>
+<li><p><strong>损失值图（左图）</strong>：</p>
+<ul>
+<li>训练损失迅速下降，在前几次迭代后接近于0，这表明模型在训练数据上学习得很好。</li>
+<li>测试损失在初期下降之后趋于稳定，甚至略有上升。这可能表示模型在测试数据上过拟合了训练数据，没有很好地推广到新数据上。</li>
+</ul>
+</li>
+<li><p><strong>准确度图（右图）</strong>：</p>
+<ul>
+<li>训练准确度迅速提高并接近100%，这与损失值图中的训练损失下降相符合。</li>
+<li>测试准确度在迅速上升后也趋于稳定，并且始终低于训练准确度。虽然准确度很高，但始终存在一定的差距。</li>
+</ul>
+</li>
+</ul>
+<p>从这些观察结果可以得出一些结论：</p>
+<ol>
+<li><strong>过拟合</strong>：模型在训练集上表现得太好了，以至于在新的、未见过的数据（测试集）上不能保持同样的表现。这是由于模型可能学习到了训练数据中的噪声和特定模式，而这些在测试集上不适用。</li>
+<li><strong>训练策略</strong>：可能需要调整模型的训练策略，如使用正则化方法（如dropout、权重衰减）、收集更多的数据、尝试不同的模型架构或使用早停法（early stopping）来避免过拟合。</li>
+<li><strong>模型性能</strong>：尽管存在过拟合，模型的测试准确度仍然相当高，这表明对于特定任务，模型可能仍然足够有效。</li>
+</ol>
+<p>要进一步改进模型，可能需要尝试调整模型复杂性、增加数据量、使用数据增强、尝试不同的优化算法或学习速率调度等策略。同时，也可以通过交叉验证等方法来更准确地评估模型的泛化能力。</p>
+]]></content>
+      <categories>
+        <category>算法与原理</category>
+      </categories>
+      <tags>
+        <tag>algorithm</tag>
+        <tag>python</tag>
+        <tag>overfitting</tag>
       </tags>
   </entry>
 </search>
