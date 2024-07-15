@@ -1447,6 +1447,7 @@
     <url>/2024/07/14/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E5%AE%89%E8%A3%85/mathtype%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p><img src="https://markdown.liuchengtu.com/work/uploads/upload_80d556936737ea146f170974de76014b.png"></p>
 <h1 id="百度网盘地址："><a href="#百度网盘地址：" class="headerlink" title="百度网盘地址："></a>百度网盘地址：</h1><p>链接：<a href="https://pan.baidu.com/s/1xzac6y9iBG_zTTO5Oza_nA?pwd=czfw">https://pan.baidu.com/s/1xzac6y9iBG_zTTO5Oza_nA?pwd=czfw</a><br>提取码：czfw<br>–来自百度网盘超级会员V7的分享</p>
+<p>链接：<a href="https://pan.baidu.com/s/1Fh7pz3Vk_ZUCqPREuRuUBQ?pwd=y1cd">https://pan.baidu.com/s/1Fh7pz3Vk_ZUCqPREuRuUBQ?pwd=y1cd</a><br>提取码：y1cd<br>–来自百度网盘超级会员V7的分享</p>
 ]]></content>
       <categories>
         <category>软件与安装</category>
@@ -1481,6 +1482,137 @@
         <tag>recreation</tag>
         <tag>phone</tag>
         <tag>pc console game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>联合电服项目-DLI和DWS表原生支持的格式</title>
+    <url>/2024/07/15/%E7%89%9B%E9%A9%AC%E4%B8%8E%E9%A1%B9%E7%9B%AE/%E8%81%94%E5%90%88%E7%94%B5%E6%9C%8D%E9%A1%B9%E7%9B%AE-DWS%E5%92%8CDLI%E5%8E%9F%E7%94%9F%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th><strong>数据类型</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>存储空间</strong></th>
+<th><strong>范围</strong></th>
+<th><strong>OBS表支持情况</strong></th>
+<th><strong>DLI表支持情况</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>INT</td>
+<td>有符号整数</td>
+<td>4字节</td>
+<td>-2147483648～2147483647</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>STRING</td>
+<td>字符串</td>
+<td>-</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>FLOAT</td>
+<td>单精度浮点型</td>
+<td>4字节</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>DOUBLE</td>
+<td>双精度浮点型</td>
+<td>8字节</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>DECIMAL(precision,scale)</td>
+<td>10进制精确数字类型。固定有效位数和小数位数的数据类型，例如：3.5<br><br>- precision：表示最多可以表示多少位的数字。<br>- scale：表示小数部分的位数。</td>
+<td>-</td>
+<td>1&lt;&#x3D;precision&lt;&#x3D;38<br><br>0&lt;&#x3D;scale&lt;&#x3D;38<br><br>若不指定precision和scale，则默认为decimal（38,38）。</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>BOOLEAN</td>
+<td>布尔类型</td>
+<td>1字节</td>
+<td>TRUE&#x2F;FALSE</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>SMALLINT&#x2F;SHORT</td>
+<td>有符号整数</td>
+<td>2字节</td>
+<td>-32768~32767</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>TINYINT</td>
+<td>有符号整数</td>
+<td>1字节</td>
+<td>-128~127</td>
+<td>是</td>
+<td>否</td>
+</tr>
+<tr>
+<td>BIGINT&#x2F;LONG</td>
+<td>有符号整数</td>
+<td>8字节</td>
+<td>-9223372036854775808～9223372036854775807</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>TIMESTAMP</td>
+<td>时间戳，表示日期和时间，格式为原始数据。例如：1621434131222</td>
+<td>-</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>CHAR</td>
+<td>固定长度字符串</td>
+<td>-</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>VARCHAR</td>
+<td>可变长度字符串</td>
+<td>-</td>
+<td>-</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>DATE</td>
+<td>日期类型，描述了特定的年月日，以yyyy-mm-dd格式表示，例如：2014-05-29</td>
+<td>-</td>
+<td>DATE类型不包含时间，所表示日期的范围为0000-01-01~ 9999-12-31。</td>
+<td>是</td>
+<td>是</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>牛马与项目</category>
+      </categories>
+      <tags>
+        <tag>labor</tag>
+        <tag>project</tag>
+        <tag>United_Electronic_Services</tag>
+        <tag>dli</tag>
+        <tag>dws</tag>
       </tags>
   </entry>
 </search>
