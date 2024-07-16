@@ -1615,4 +1615,32 @@
         <tag>dws</tag>
       </tags>
   </entry>
+  <entry>
+    <title>联合电服项目当前接口使用说明</title>
+    <url>/2024/07/15/%E7%89%9B%E9%A9%AC%E4%B8%8E%E9%A1%B9%E7%9B%AE/%E5%BD%93%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th><strong>接口名称</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>备注</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>obtain_road_safety_index_realtime_partition</td>
+<td>实时安全指数数据获取接口</td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>牛马与项目</category>
+      </categories>
+      <tags>
+        <tag>labor</tag>
+        <tag>project</tag>
+        <tag>United_Electronic_Services</tag>
+        <tag>Api</tag>
+      </tags>
+  </entry>
 </search>
