@@ -2053,4 +2053,9 @@
     <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/css/font_define.css</url>
+    <content><![CDATA[@font-face{font-family:CascadiaCodePL;font-display:swap;src:url('/butterflyChange/fonts/CascadiaCodePL.ttf') format("truetype")}]]></content>
+  </entry>
 </search>
