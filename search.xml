@@ -2302,9 +2302,9 @@
 <figure class="gallery-group">
   <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png" alt="Group Image Gallery">
   <figcaption>
-  <div class="gallery-group-name">Luggage sticker</div>
+  <div class="gallery-group-name">Luggage</div>
   <p>行李箱</p>
-  <a href="/Gallery/Luggage%20sticker"></a>
+  <a href="/Gallery/Luggage"></a>
   </figcaption>
   </figure>
   
@@ -2314,12 +2314,11 @@
   </entry>
   <entry>
     <title></title>
-    <url>/gallery/Luggage%20sticker.html</url>
+    <url>/gallery/Luggage/index.html</url>
     <content><![CDATA[<div class="gallery-container" data-type="data" data-button>
-      <div class="gallery-data">[{"url":"https://i.loli.net/2019/12/25/Jj8FXuKVlOea4Ec.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/eqBGrXx9tWsZOao.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/LjW2CfNSD7OaY4v.jpg","alt":""}]</div>
+      <div class="gallery-data">[{"url":"https://oss-liuchengtu.hudunsoft.com/userimg/32/32af06c5ad07e5471bf93a58289aa71e.jpg","alt":"地平线8号20寸Jojo"}]</div>
       <div class="gallery-items">
       </div>
-    </div>
-]]></content>
+    </div>]]></content>
   </entry>
 </search>
