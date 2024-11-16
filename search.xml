@@ -2300,7 +2300,7 @@
     <url>/gallery/index.html</url>
     <content><![CDATA[<div class="gallery-group-main">
 <figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png" alt="Group Image Gallery">
+  <img class="gallery-group-img no-lightbox" src="https://oss-liuchengtu.hudunsoft.com/userimg/d6/d6e224a2f3955b790e25a3408daaaff0.png" alt="Group Image Gallery">
   <figcaption>
   <div class="gallery-group-name">Luggage</div>
   <p>行李箱</p>
@@ -2309,11 +2309,20 @@
   </figure>
   
 <figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src="https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png" alt="Group Image Gallery">
+  <img class="gallery-group-img no-lightbox" src="https://oss-liuchengtu.hudunsoft.com/userimg/d6/d6e224a2f3955b790e25a3408daaaff0.png" alt="Group Image Gallery">
   <figcaption>
   <div class="gallery-group-name">Cup</div>
   <p>杯子</p>
   <a href="/gallery/Cup"></a>
+  </figcaption>
+  </figure>
+  
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src="https://oss-liuchengtu.hudunsoft.com/userimg/d6/d6e224a2f3955b790e25a3408daaaff0.png" alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">Bag</div>
+  <p>背包</p>
+  <a href="/gallery/Bag"></a>
   </figcaption>
   </figure>
   
