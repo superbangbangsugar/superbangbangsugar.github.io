@@ -2617,6 +2617,15 @@
   </figcaption>
   </figure>
   
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src="https://oss-liuchengtu.hudunsoft.com/userimg/d6/d6e224a2f3955b790e25a3408daaaff0.png" alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">Transportation journal</div>
+  <p>交通运输期刊</p>
+  <a href="/gallery/Transportation%20journal"></a>
+  </figcaption>
+  </figure>
+  
 </div>
 
 ]]></content>
@@ -2698,6 +2707,15 @@
     <url>/gallery/Laboratory.html</url>
     <content><![CDATA[<div class="gallery-container" data-type="data" data-button>
       <div class="gallery-data">[{"url":"https://oss-liuchengtu.hudunsoft.com/userimg/c7/c7df185b297c52750b89d693ac9b6827.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/gallery/Transportation%20journal.html</url>
+    <content><![CDATA[<div class="gallery-container" data-type="data" data-button>
+      <div class="gallery-data">[{"url":"https://oss-liuchengtu.hudunsoft.com/userimg/93/93e876de602ba67748fbbe4afa5ecb21.jpg","alt":""}]</div>
       <div class="gallery-items">
       </div>
     </div>]]></content>
