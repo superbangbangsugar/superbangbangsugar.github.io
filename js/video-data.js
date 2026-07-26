@@ -1,0 +1,1 @@
+window.BLOG_VIDEO_DATA=[];
